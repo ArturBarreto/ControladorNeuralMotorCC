@@ -1,0 +1,6496 @@
+/usr/bin/python3.6 /home/arturbarreto/PycharmProjects/DBN/Teste.py
+
+********* Combinações que serão Testadas **********
+
+Total de Testes = 540
+HIDDEN_LAYERS_STRUCTURE = [[5], [15], [45], [60], [5, 5], [15, 15], [45, 45], [60, 60], [5, 5, 5], [15, 15, 15], [45, 45, 45], [60, 60, 60]]
+LEARNING_RATE_RBM = [0.01]
+LEARNING_RATE = [0.01]
+N_EPOCHS_RBM = [5, 10, 20]
+N_ITER_BACKPROP = [10, 25, 50, 100, 200]
+BATCH_SIZE = [16]
+ACTIVATION_FUNCTION = ['sigmoid']
+DROPOUT_P = [0.0]
+
+***************************************************
+
+Modelo 1 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.985193
+MSE: 6.567756
+
+***************************************************
+
+Modelo 2 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.985667
+MSE: 6.357634
+
+***************************************************
+
+Modelo 3 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.989691
+MSE: 4.572781
+
+***************************************************
+
+Modelo 4 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.989623
+MSE: 4.602885
+
+***************************************************
+
+Modelo 5 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.991772
+MSE: 3.649683
+
+***************************************************
+
+Modelo 6 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.982551
+MSE: 7.739863
+
+***************************************************
+
+Modelo 7 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.984870
+MSE: 6.711163
+
+***************************************************
+
+Modelo 8 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.989191
+MSE: 4.794497
+
+***************************************************
+
+Modelo 9 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.990111
+MSE: 4.386445
+
+***************************************************
+
+Modelo 10 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.987463
+MSE: 5.560892
+
+***************************************************
+
+Modelo 11 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.956355
+MSE: 19.359351
+
+***************************************************
+
+Modelo 12 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.948531
+MSE: 22.830048
+
+***************************************************
+
+Modelo 13 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.978124
+MSE: 9.703599
+
+***************************************************
+
+Modelo 14 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.979197
+MSE: 9.227485
+
+***************************************************
+
+Modelo 15 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.983038
+MSE: 7.523912
+
+***************************************************
+
+Modelo 16 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.985088
+MSE: 6.614443
+
+***************************************************
+
+Modelo 17 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.991495
+MSE: 3.772730
+
+***************************************************
+
+Modelo 18 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.991248
+MSE: 3.881880
+
+***************************************************
+
+Modelo 19 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.992494
+MSE: 3.329383
+
+***************************************************
+
+Modelo 20 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.991599
+MSE: 3.726230
+
+***************************************************
+
+Modelo 21 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.980789
+MSE: 8.521507
+
+***************************************************
+
+Modelo 22 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.988105
+MSE: 5.276232
+
+***************************************************
+
+Modelo 23 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.992994
+MSE: 3.107829
+
+***************************************************
+
+Modelo 24 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.992039
+MSE: 3.531397
+
+***************************************************
+
+Modelo 25 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.992874
+MSE: 3.160662
+
+***************************************************
+
+Modelo 26 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.946571
+MSE: 23.699277
+
+***************************************************
+
+Modelo 27 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.963231
+MSE: 16.309483
+
+***************************************************
+
+Modelo 28 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.975071
+MSE: 11.057761
+
+***************************************************
+
+Modelo 29 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.989483
+MSE: 4.665089
+
+***************************************************
+
+Modelo 30 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.986972
+MSE: 5.778751
+
+***************************************************
+
+Modelo 31 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.988574
+MSE: 5.068073
+
+***************************************************
+
+Modelo 32 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.991257
+MSE: 3.878271
+
+***************************************************
+
+Modelo 33 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.989040
+MSE: 4.861638
+
+***************************************************
+
+Modelo 34 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.992546
+MSE: 3.306295
+
+***************************************************
+
+Modelo 35 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.993086
+MSE: 3.066928
+
+***************************************************
+
+Modelo 36 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.985385
+MSE: 6.482927
+
+***************************************************
+
+Modelo 37 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.986281
+MSE: 6.085324
+
+***************************************************
+
+Modelo 38 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.990456
+MSE: 4.233317
+
+***************************************************
+
+Modelo 39 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.992737
+MSE: 3.221649
+
+***************************************************
+
+Modelo 40 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.992622
+MSE: 3.272504
+
+***************************************************
+
+Modelo 41 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.979832
+MSE: 8.945792
+
+***************************************************
+
+Modelo 42 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.986015
+MSE: 6.203327
+
+***************************************************
+
+Modelo 43 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.990856
+MSE: 4.055925
+
+***************************************************
+
+Modelo 44 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.990588
+MSE: 4.174736
+
+***************************************************
+
+Modelo 45 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.989852
+MSE: 4.501188
+
+***************************************************
+
+Modelo 46 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.987991
+MSE: 5.326618
+
+***************************************************
+
+Modelo 47 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.989040
+MSE: 4.861647
+
+***************************************************
+
+Modelo 48 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.990637
+MSE: 4.152965
+
+***************************************************
+
+Modelo 49 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.992802
+MSE: 3.192951
+
+***************************************************
+
+Modelo 50 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.992390
+MSE: 3.375357
+
+***************************************************
+
+Modelo 51 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.987181
+MSE: 5.686125
+
+***************************************************
+
+Modelo 52 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.989887
+MSE: 4.485932
+
+***************************************************
+
+Modelo 53 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.992173
+MSE: 3.471909
+
+***************************************************
+
+Modelo 54 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.992077
+MSE: 3.514217
+
+***************************************************
+
+Modelo 55 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.990594
+MSE: 4.172040
+
+***************************************************
+
+Modelo 56 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.957467
+MSE: 18.866193
+
+***************************************************
+
+Modelo 57 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.990652
+MSE: 4.146574
+
+***************************************************
+
+Modelo 58 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.989915
+MSE: 4.473333
+
+***************************************************
+
+Modelo 59 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.990834
+MSE: 4.065583
+
+***************************************************
+
+Modelo 60 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.990551
+MSE: 4.191477
+
+***************************************************
+
+Modelo 61 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.983784
+MSE: 7.192888
+
+***************************************************
+
+Modelo 62 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.981742
+MSE: 8.098496
+
+***************************************************
+
+Modelo 63 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.991570
+MSE: 3.739367
+
+***************************************************
+
+Modelo 64 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.990645
+MSE: 4.149780
+
+***************************************************
+
+Modelo 65 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.990522
+MSE: 4.203908
+
+***************************************************
+
+Modelo 66 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.966033
+MSE: 15.066841
+
+***************************************************
+
+Modelo 67 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.982295
+MSE: 7.853526
+
+***************************************************
+
+Modelo 68 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.986939
+MSE: 5.793310
+
+***************************************************
+
+Modelo 69 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.989637
+MSE: 4.596874
+
+***************************************************
+
+Modelo 70 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.990131
+MSE: 4.377651
+
+***************************************************
+
+Modelo 71 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.926931
+MSE: 32.411225
+
+***************************************************
+
+Modelo 72 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.957571
+MSE: 18.820156
+
+***************************************************
+
+Modelo 73 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.956473
+MSE: 19.307080
+
+***************************************************
+
+Modelo 74 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.957486
+MSE: 18.857860
+
+***************************************************
+
+Modelo 75 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.989870
+MSE: 4.493121
+
+***************************************************
+
+Modelo 76 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.988719
+MSE: 5.004041
+
+***************************************************
+
+Modelo 77 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.993384
+MSE: 2.934537
+
+***************************************************
+
+Modelo 78 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.985617
+MSE: 6.379746
+
+***************************************************
+
+Modelo 79 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.991976
+MSE: 3.559396
+
+***************************************************
+
+Modelo 80 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.990867
+MSE: 4.051248
+
+***************************************************
+
+Modelo 81 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.980941
+MSE: 8.453767
+
+***************************************************
+
+Modelo 82 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.984638
+MSE: 6.814236
+
+***************************************************
+
+Modelo 83 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.990563
+MSE: 4.186033
+
+***************************************************
+
+Modelo 84 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.993043
+MSE: 3.085885
+
+***************************************************
+
+Modelo 85 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.991228
+MSE: 3.890847
+
+***************************************************
+
+Modelo 86 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.959665
+MSE: 17.891245
+
+***************************************************
+
+Modelo 87 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.954397
+MSE: 20.227972
+
+***************************************************
+
+Modelo 88 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.971400
+MSE: 12.686078
+
+***************************************************
+
+Modelo 89 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.988152
+MSE: 5.255374
+
+***************************************************
+
+Modelo 90 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.983807
+MSE: 7.182724
+
+***************************************************
+
+Modelo 91 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.989412
+MSE: 4.696591
+
+***************************************************
+
+Modelo 92 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.990264
+MSE: 4.318578
+
+***************************************************
+
+Modelo 93 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.990504
+MSE: 4.212298
+
+***************************************************
+
+Modelo 94 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.984713
+MSE: 6.781023
+
+***************************************************
+
+Modelo 95 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.990929
+MSE: 4.023782
+
+***************************************************
+
+Modelo 96 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.985348
+MSE: 6.499265
+
+***************************************************
+
+Modelo 97 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.991122
+MSE: 3.938035
+
+***************************************************
+
+Modelo 98 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.992804
+MSE: 3.191880
+
+***************************************************
+
+Modelo 99 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.992450
+MSE: 3.349143
+
+***************************************************
+
+Modelo 100 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.990653
+MSE: 4.146173
+
+***************************************************
+
+Modelo 101 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.988380
+MSE: 5.154195
+
+***************************************************
+
+Modelo 102 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.986501
+MSE: 5.987832
+
+***************************************************
+
+Modelo 103 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.983086
+MSE: 7.502621
+
+***************************************************
+
+Modelo 104 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.973035
+MSE: 11.960935
+
+***************************************************
+
+Modelo 105 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.990255
+MSE: 4.322504
+
+***************************************************
+
+Modelo 106 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.978564
+MSE: 9.508163
+
+***************************************************
+
+Modelo 107 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.993870
+MSE: 2.719061
+
+***************************************************
+
+Modelo 108 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.989660
+MSE: 4.586440
+
+***************************************************
+
+Modelo 109 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.987192
+MSE: 5.681280
+
+***************************************************
+
+Modelo 110 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.992099
+MSE: 3.504574
+
+***************************************************
+
+Modelo 111 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.975421
+MSE: 10.902518
+
+***************************************************
+
+Modelo 112 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.983253
+MSE: 7.428199
+
+***************************************************
+
+Modelo 113 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.992933
+MSE: 3.134552
+
+***************************************************
+
+Modelo 114 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.984549
+MSE: 6.853362
+
+***************************************************
+
+Modelo 115 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.991768
+MSE: 3.651267
+
+***************************************************
+
+Modelo 116 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.984106
+MSE: 7.050249
+
+***************************************************
+
+Modelo 117 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.977690
+MSE: 9.895993
+
+***************************************************
+
+Modelo 118 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.979002
+MSE: 9.314167
+
+***************************************************
+
+Modelo 119 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.991149
+MSE: 3.925977
+
+***************************************************
+
+Modelo 120 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.982259
+MSE: 7.869369
+
+***************************************************
+
+Modelo 121 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.988806
+MSE: 4.965189
+
+***************************************************
+
+Modelo 122 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.985007
+MSE: 6.650240
+
+***************************************************
+
+Modelo 123 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.987433
+MSE: 5.574455
+
+***************************************************
+
+Modelo 124 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.990571
+MSE: 4.182453
+
+***************************************************
+
+Modelo 125 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.991714
+MSE: 3.675325
+
+***************************************************
+
+Modelo 126 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.961132
+MSE: 17.240778
+
+***************************************************
+
+Modelo 127 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.970999
+MSE: 12.863794
+
+***************************************************
+
+Modelo 128 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.989223
+MSE: 4.780478
+
+***************************************************
+
+Modelo 129 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.987235
+MSE: 5.662205
+
+***************************************************
+
+Modelo 130 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.983571
+MSE: 7.287400
+
+***************************************************
+
+Modelo 131 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.939030
+MSE: 27.044401
+
+***************************************************
+
+Modelo 132 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.941680
+MSE: 25.868698
+
+***************************************************
+
+Modelo 133 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.968830
+MSE: 13.826058
+
+***************************************************
+
+Modelo 134 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.946902
+MSE: 23.552494
+
+***************************************************
+
+Modelo 135 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.987141
+MSE: 5.703771
+
+***************************************************
+
+Modelo 136 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993523
+MSE: 2.873005
+
+***************************************************
+
+Modelo 137 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.992388
+MSE: 3.376298
+
+***************************************************
+
+Modelo 138 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.992636
+MSE: 3.266643
+
+***************************************************
+
+Modelo 139 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993197
+MSE: 3.017721
+
+***************************************************
+
+Modelo 140 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.991100
+MSE: 3.947831
+
+***************************************************
+
+Modelo 141 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.981586
+MSE: 8.167823
+
+***************************************************
+
+Modelo 142 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.988351
+MSE: 5.167059
+
+***************************************************
+
+Modelo 143 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.988864
+MSE: 4.939508
+
+***************************************************
+
+Modelo 144 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.990286
+MSE: 4.308659
+
+***************************************************
+
+Modelo 145 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.988735
+MSE: 4.996799
+
+***************************************************
+
+Modelo 146 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.923089
+MSE: 34.115275
+
+***************************************************
+
+Modelo 147 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.986473
+MSE: 6.000331
+
+***************************************************
+
+Modelo 148 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.976113
+MSE: 10.595690
+
+***************************************************
+
+Modelo 149 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.982325
+MSE: 7.840250
+
+***************************************************
+
+Modelo 150 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.978764
+MSE: 9.419762
+
+***************************************************
+
+Modelo 151 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.988575
+MSE: 5.067612
+
+***************************************************
+
+Modelo 152 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.991753
+MSE: 3.657932
+
+***************************************************
+
+Modelo 153 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.988844
+MSE: 4.948574
+
+***************************************************
+
+Modelo 154 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.985823
+MSE: 6.288428
+
+***************************************************
+
+Modelo 155 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.992095
+MSE: 3.506581
+
+***************************************************
+
+Modelo 156 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.965382
+MSE: 15.355490
+
+***************************************************
+
+Modelo 157 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.987968
+MSE: 5.337200
+
+***************************************************
+
+Modelo 158 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.989838
+MSE: 4.507567
+
+***************************************************
+
+Modelo 159 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.982581
+MSE: 7.726297
+
+***************************************************
+
+Modelo 160 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.992377
+MSE: 3.381387
+
+***************************************************
+
+Modelo 161 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.984614
+MSE: 6.824696
+
+***************************************************
+
+Modelo 162 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.986177
+MSE: 6.131331
+
+***************************************************
+
+Modelo 163 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.967078
+MSE: 14.603135
+
+***************************************************
+
+Modelo 164 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.990448
+MSE: 4.236876
+
+***************************************************
+
+Modelo 165 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.983338
+MSE: 7.390649
+
+***************************************************
+
+Modelo 166 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.968730
+MSE: 13.870243
+
+***************************************************
+
+Modelo 167 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.986794
+MSE: 5.857681
+
+***************************************************
+
+Modelo 168 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.987175
+MSE: 5.688557
+
+***************************************************
+
+Modelo 169 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.987282
+MSE: 5.641115
+
+***************************************************
+
+Modelo 170 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.991241
+MSE: 3.885424
+
+***************************************************
+
+Modelo 171 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.987889
+MSE: 5.372073
+
+***************************************************
+
+Modelo 172 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.969795
+MSE: 13.397929
+
+***************************************************
+
+Modelo 173 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.988466
+MSE: 5.115967
+
+***************************************************
+
+Modelo 174 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.990319
+MSE: 4.294326
+
+***************************************************
+
+Modelo 175 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.990887
+MSE: 4.042076
+
+***************************************************
+
+Modelo 176 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.986356
+MSE: 6.052050
+
+***************************************************
+
+Modelo 177 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.991766
+MSE: 3.652141
+
+***************************************************
+
+Modelo 178 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.987034
+MSE: 5.751491
+
+***************************************************
+
+Modelo 179 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.992273
+MSE: 3.427463
+
+***************************************************
+
+Modelo 180 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.986783
+MSE: 5.862767
+
+***************************************************
+
+Modelo 181 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.991592
+MSE: 4.796662
+
+***************************************************
+
+Modelo 182 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.992655
+MSE: 4.190069
+
+***************************************************
+
+Modelo 183 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.993033
+MSE: 3.974421
+
+***************************************************
+
+Modelo 184 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.992614
+MSE: 4.213954
+
+***************************************************
+
+Modelo 185 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.993620
+MSE: 3.640057
+
+***************************************************
+
+Modelo 186 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.987265
+MSE: 7.265478
+
+***************************************************
+
+Modelo 187 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.990589
+MSE: 5.368738
+
+***************************************************
+
+Modelo 188 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.989193
+MSE: 6.165642
+
+***************************************************
+
+Modelo 189 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.990979
+MSE: 5.146411
+
+***************************************************
+
+Modelo 190 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.991942
+MSE: 4.597369
+
+***************************************************
+
+Modelo 191 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.952995
+MSE: 26.816680
+
+***************************************************
+
+Modelo 192 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.956937
+MSE: 24.567832
+
+***************************************************
+
+Modelo 193 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.961441
+MSE: 21.997768
+
+***************************************************
+
+Modelo 194 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.972502
+MSE: 15.687630
+
+***************************************************
+
+Modelo 195 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.975814
+MSE: 13.798290
+
+***************************************************
+
+Modelo 196 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.992247
+MSE: 4.422945
+
+***************************************************
+
+Modelo 197 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.993692
+MSE: 3.598572
+
+***************************************************
+
+Modelo 198 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.994659
+MSE: 3.047282
+
+***************************************************
+
+Modelo 199 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.994286
+MSE: 3.259754
+
+***************************************************
+
+Modelo 200 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.994809
+MSE: 2.961381
+
+***************************************************
+
+Modelo 201 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.989719
+MSE: 5.865330
+
+***************************************************
+
+Modelo 202 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.992646
+MSE: 4.195524
+
+***************************************************
+
+Modelo 203 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.993921
+MSE: 3.468216
+
+***************************************************
+
+Modelo 204 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.993957
+MSE: 3.447505
+
+***************************************************
+
+Modelo 205 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.994097
+MSE: 3.367450
+
+***************************************************
+
+Modelo 206 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.963009
+MSE: 21.103330
+
+***************************************************
+
+Modelo 207 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.986045
+MSE: 7.961448
+
+***************************************************
+
+Modelo 208 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.987284
+MSE: 7.254401
+
+***************************************************
+
+Modelo 209 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.971439
+MSE: 16.294135
+
+***************************************************
+
+Modelo 210 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.977268
+MSE: 12.968751
+
+***************************************************
+
+Modelo 211 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.992820
+MSE: 4.096405
+
+***************************************************
+
+Modelo 212 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.994118
+MSE: 3.355599
+
+***************************************************
+
+Modelo 213 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.994505
+MSE: 3.135150
+
+***************************************************
+
+Modelo 214 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.994240
+MSE: 3.286005
+
+***************************************************
+
+Modelo 215 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.994659
+MSE: 3.047035
+
+***************************************************
+
+Modelo 216 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.988121
+MSE: 6.777175
+
+***************************************************
+
+Modelo 217 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.993866
+MSE: 3.499340
+
+***************************************************
+
+Modelo 218 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.994284
+MSE: 3.260926
+
+***************************************************
+
+Modelo 219 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.993660
+MSE: 3.617033
+
+***************************************************
+
+Modelo 220 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.994187
+MSE: 3.316529
+
+***************************************************
+
+Modelo 221 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.976254
+MSE: 13.547060
+
+***************************************************
+
+Modelo 222 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.991933
+MSE: 4.602239
+
+***************************************************
+
+Modelo 223 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.989920
+MSE: 5.750833
+
+***************************************************
+
+Modelo 224 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.991557
+MSE: 4.816878
+
+***************************************************
+
+Modelo 225 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.993046
+MSE: 3.967041
+
+***************************************************
+
+Modelo 226 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.991810
+MSE: 4.672437
+
+***************************************************
+
+Modelo 227 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.993530
+MSE: 3.690894
+
+***************************************************
+
+Modelo 228 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.994670
+MSE: 3.040520
+
+***************************************************
+
+Modelo 229 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.994386
+MSE: 3.202990
+
+***************************************************
+
+Modelo 230 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.994540
+MSE: 3.115117
+
+***************************************************
+
+Modelo 231 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.984862
+MSE: 8.636230
+
+***************************************************
+
+Modelo 232 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.992933
+MSE: 4.031692
+
+***************************************************
+
+Modelo 233 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.993703
+MSE: 3.592462
+
+***************************************************
+
+Modelo 234 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.994179
+MSE: 3.321010
+
+***************************************************
+
+Modelo 235 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.994303
+MSE: 3.250143
+
+***************************************************
+
+Modelo 236 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.990472
+MSE: 5.435749
+
+***************************************************
+
+Modelo 237 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.991325
+MSE: 4.949265
+
+***************************************************
+
+Modelo 238 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.991226
+MSE: 5.005783
+
+***************************************************
+
+Modelo 239 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.991664
+MSE: 4.755778
+
+***************************************************
+
+Modelo 240 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.992908
+MSE: 4.046248
+
+***************************************************
+
+Modelo 241 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.992670
+MSE: 4.181549
+
+***************************************************
+
+Modelo 242 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.991140
+MSE: 5.054782
+
+***************************************************
+
+Modelo 243 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.992594
+MSE: 4.225041
+
+***************************************************
+
+Modelo 244 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.993570
+MSE: 3.668494
+
+***************************************************
+
+Modelo 245 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.992094
+MSE: 4.510475
+
+***************************************************
+
+Modelo 246 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.979970
+MSE: 11.427041
+
+***************************************************
+
+Modelo 247 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.992146
+MSE: 4.480772
+
+***************************************************
+
+Modelo 248 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.986463
+MSE: 7.723109
+
+***************************************************
+
+Modelo 249 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.991017
+MSE: 5.124831
+
+***************************************************
+
+Modelo 250 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.992581
+MSE: 4.232716
+
+***************************************************
+
+Modelo 251 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.947607
+MSE: 29.890207
+
+***************************************************
+
+Modelo 252 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.957985
+MSE: 23.969788
+
+***************************************************
+
+Modelo 253 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.964683
+MSE: 20.148592
+
+***************************************************
+
+Modelo 254 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.964054
+MSE: 20.507252
+
+***************************************************
+
+Modelo 255 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.969171
+MSE: 17.588066
+
+***************************************************
+
+Modelo 256 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.992957
+MSE: 4.018167
+
+***************************************************
+
+Modelo 257 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.994121
+MSE: 3.353962
+
+***************************************************
+
+Modelo 258 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.994718
+MSE: 3.013625
+
+***************************************************
+
+Modelo 259 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.994314
+MSE: 3.243702
+
+***************************************************
+
+Modelo 260 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.994341
+MSE: 3.228366
+
+***************************************************
+
+Modelo 261 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.987983
+MSE: 6.855972
+
+***************************************************
+
+Modelo 262 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.988105
+MSE: 6.786349
+
+***************************************************
+
+Modelo 263 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.992697
+MSE: 4.166245
+
+***************************************************
+
+Modelo 264 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.992353
+MSE: 4.362679
+
+***************************************************
+
+Modelo 265 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.993425
+MSE: 3.751016
+
+***************************************************
+
+Modelo 266 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.982399
+MSE: 10.041161
+
+***************************************************
+
+Modelo 267 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.991575
+MSE: 4.806391
+
+***************************************************
+
+Modelo 268 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.974604
+MSE: 14.488506
+
+***************************************************
+
+Modelo 269 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.991930
+MSE: 4.604094
+
+***************************************************
+
+Modelo 270 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.992033
+MSE: 4.544974
+
+***************************************************
+
+Modelo 271 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.992818
+MSE: 4.097284
+
+***************************************************
+
+Modelo 272 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.994337
+MSE: 3.230493
+
+***************************************************
+
+Modelo 273 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.994895
+MSE: 2.912693
+
+***************************************************
+
+Modelo 274 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.994502
+MSE: 3.136354
+
+***************************************************
+
+Modelo 275 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.993988
+MSE: 3.429889
+
+***************************************************
+
+Modelo 276 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.992948
+MSE: 4.022974
+
+***************************************************
+
+Modelo 277 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.990088
+MSE: 5.654565
+
+***************************************************
+
+Modelo 278 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.993691
+MSE: 3.599524
+
+***************************************************
+
+Modelo 279 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.994032
+MSE: 3.404737
+
+***************************************************
+
+Modelo 280 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.993396
+MSE: 3.767547
+
+***************************************************
+
+Modelo 281 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.989244
+MSE: 6.136341
+
+***************************************************
+
+Modelo 282 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.962674
+MSE: 21.294691
+
+***************************************************
+
+Modelo 283 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.991485
+MSE: 4.857665
+
+***************************************************
+
+Modelo 284 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.992148
+MSE: 4.479794
+
+***************************************************
+
+Modelo 285 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.993012
+MSE: 3.986406
+
+***************************************************
+
+Modelo 286 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.990883
+MSE: 5.201537
+
+***************************************************
+
+Modelo 287 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.993914
+MSE: 3.472061
+
+***************************************************
+
+Modelo 288 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.995009
+MSE: 2.847461
+
+***************************************************
+
+Modelo 289 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.992097
+MSE: 4.508713
+
+***************************************************
+
+Modelo 290 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.994452
+MSE: 3.165394
+
+***************************************************
+
+Modelo 291 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.987908
+MSE: 6.898641
+
+***************************************************
+
+Modelo 292 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.992357
+MSE: 4.360507
+
+***************************************************
+
+Modelo 293 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.994285
+MSE: 3.260226
+
+***************************************************
+
+Modelo 294 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.994099
+MSE: 3.366670
+
+***************************************************
+
+Modelo 295 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.992368
+MSE: 4.354194
+
+***************************************************
+
+Modelo 296 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.965385
+MSE: 19.748116
+
+***************************************************
+
+Modelo 297 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.983020
+MSE: 9.687191
+
+***************************************************
+
+Modelo 298 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.992839
+MSE: 4.085216
+
+***************************************************
+
+Modelo 299 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.993439
+MSE: 3.743306
+
+***************************************************
+
+Modelo 300 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.994277
+MSE: 3.265154
+
+***************************************************
+
+Modelo 301 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.990620
+MSE: 5.351384
+
+***************************************************
+
+Modelo 302 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.992837
+MSE: 4.086314
+
+***************************************************
+
+Modelo 303 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.993588
+MSE: 3.658146
+
+***************************************************
+
+Modelo 304 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.993002
+MSE: 3.992493
+
+***************************************************
+
+Modelo 305 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.993444
+MSE: 3.740343
+
+***************************************************
+
+Modelo 306 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.989501
+MSE: 5.989642
+
+***************************************************
+
+Modelo 307 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.984225
+MSE: 8.999843
+
+***************************************************
+
+Modelo 308 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.990447
+MSE: 5.449932
+
+***************************************************
+
+Modelo 309 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.986061
+MSE: 7.952283
+
+***************************************************
+
+Modelo 310 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.991836
+MSE: 4.657460
+
+***************************************************
+
+Modelo 311 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.942579
+MSE: 32.758663
+
+***************************************************
+
+Modelo 312 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.942701
+MSE: 32.689326
+
+***************************************************
+
+Modelo 313 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.952136
+MSE: 27.306619
+
+***************************************************
+
+Modelo 314 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.964402
+MSE: 20.308548
+
+***************************************************
+
+Modelo 315 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.983082
+MSE: 9.651536
+
+***************************************************
+
+Modelo 316 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.991440
+MSE: 4.883684
+
+***************************************************
+
+Modelo 317 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993993
+MSE: 3.427063
+
+***************************************************
+
+Modelo 318 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.994365
+MSE: 3.215023
+
+***************************************************
+
+Modelo 319 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.994108
+MSE: 3.361425
+
+***************************************************
+
+Modelo 320 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993660
+MSE: 3.617219
+
+***************************************************
+
+Modelo 321 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.981145
+MSE: 10.756792
+
+***************************************************
+
+Modelo 322 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993770
+MSE: 3.554316
+
+***************************************************
+
+Modelo 323 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.992540
+MSE: 4.255959
+
+***************************************************
+
+Modelo 324 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993082
+MSE: 3.946469
+
+***************************************************
+
+Modelo 325 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.994086
+MSE: 3.373885
+
+***************************************************
+
+Modelo 326 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.986298
+MSE: 7.816860
+
+***************************************************
+
+Modelo 327 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.960574
+MSE: 22.492918
+
+***************************************************
+
+Modelo 328 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.964956
+MSE: 19.992475
+
+***************************************************
+
+Modelo 329 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.969858
+MSE: 17.196297
+
+***************************************************
+
+Modelo 330 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.981135
+MSE: 10.762816
+
+***************************************************
+
+Modelo 331 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.991545
+MSE: 4.823802
+
+***************************************************
+
+Modelo 332 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.990312
+MSE: 5.526808
+
+***************************************************
+
+Modelo 333 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.994680
+MSE: 3.035270
+
+***************************************************
+
+Modelo 334 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.990563
+MSE: 5.383562
+
+***************************************************
+
+Modelo 335 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.994009
+MSE: 3.417912
+
+***************************************************
+
+Modelo 336 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.991612
+MSE: 4.785185
+
+***************************************************
+
+Modelo 337 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.993670
+MSE: 3.611155
+
+***************************************************
+
+Modelo 338 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.991352
+MSE: 4.933947
+
+***************************************************
+
+Modelo 339 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.993660
+MSE: 3.616783
+
+***************************************************
+
+Modelo 340 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.994522
+MSE: 3.125496
+
+***************************************************
+
+Modelo 341 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.990994
+MSE: 5.137906
+
+***************************************************
+
+Modelo 342 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.991576
+MSE: 4.806038
+
+***************************************************
+
+Modelo 343 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.992911
+MSE: 4.044446
+
+***************************************************
+
+Modelo 344 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.991734
+MSE: 4.715604
+
+***************************************************
+
+Modelo 345 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.993130
+MSE: 3.919382
+
+***************************************************
+
+Modelo 346 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.992867
+MSE: 4.069490
+
+***************************************************
+
+Modelo 347 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.993653
+MSE: 3.621174
+
+***************************************************
+
+Modelo 348 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.994637
+MSE: 3.059798
+
+***************************************************
+
+Modelo 349 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.993821
+MSE: 3.524942
+
+***************************************************
+
+Modelo 350 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.993564
+MSE: 3.671875
+
+***************************************************
+
+Modelo 351 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.992076
+MSE: 4.520727
+
+***************************************************
+
+Modelo 352 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.993800
+MSE: 3.537032
+
+***************************************************
+
+Modelo 353 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.992942
+MSE: 4.026506
+
+***************************************************
+
+Modelo 354 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.994571
+MSE: 3.097295
+
+***************************************************
+
+Modelo 355 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.994268
+MSE: 3.270397
+
+***************************************************
+
+Modelo 356 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.990472
+MSE: 5.435984
+
+***************************************************
+
+Modelo 357 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.980190
+MSE: 11.301517
+
+***************************************************
+
+Modelo 358 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.990826
+MSE: 5.233909
+
+***************************************************
+
+Modelo 359 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.993700
+MSE: 3.593892
+
+***************************************************
+
+Modelo 360 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.992986
+MSE: 4.001630
+
+***************************************************
+
+Modelo 361 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.992332
+MSE: 5.720788
+
+***************************************************
+
+Modelo 362 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.992322
+MSE: 5.728434
+
+***************************************************
+
+Modelo 363 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.992520
+MSE: 5.580503
+
+***************************************************
+
+Modelo 364 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.993150
+MSE: 5.110352
+
+***************************************************
+
+Modelo 365 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.993094
+MSE: 5.152227
+
+***************************************************
+
+Modelo 366 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.974966
+MSE: 18.677383
+
+***************************************************
+
+Modelo 367 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.979233
+MSE: 15.493893
+
+***************************************************
+
+Modelo 368 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.979665
+MSE: 15.171682
+
+***************************************************
+
+Modelo 369 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.992100
+MSE: 5.894410
+
+***************************************************
+
+Modelo 370 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.992810
+MSE: 5.364528
+
+***************************************************
+
+Modelo 371 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.955137
+MSE: 33.471804
+
+***************************************************
+
+Modelo 372 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.953835
+MSE: 34.443398
+
+***************************************************
+
+Modelo 373 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.957358
+MSE: 31.814642
+
+***************************************************
+
+Modelo 374 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.971499
+MSE: 21.264426
+
+***************************************************
+
+Modelo 375 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5]
+
+
+Done.
+R-squared: 0.973678
+MSE: 19.638690
+
+***************************************************
+
+Modelo 376 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.993833
+MSE: 4.601358
+
+***************************************************
+
+Modelo 377 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.993165
+MSE: 5.099282
+
+***************************************************
+
+Modelo 378 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.993210
+MSE: 5.066297
+
+***************************************************
+
+Modelo 379 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.995599
+MSE: 3.283366
+
+***************************************************
+
+Modelo 380 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.995528
+MSE: 3.336356
+
+***************************************************
+
+Modelo 381 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.988966
+MSE: 8.232066
+
+***************************************************
+
+Modelo 382 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.989503
+MSE: 7.831659
+
+***************************************************
+
+Modelo 383 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.991418
+MSE: 6.402838
+
+***************************************************
+
+Modelo 384 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.993131
+MSE: 5.125216
+
+***************************************************
+
+Modelo 385 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.992994
+MSE: 5.227005
+
+***************************************************
+
+Modelo 386 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.968861
+MSE: 23.232439
+
+***************************************************
+
+Modelo 387 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.966278
+MSE: 25.159885
+
+***************************************************
+
+Modelo 388 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.991753
+MSE: 6.153128
+
+***************************************************
+
+Modelo 389 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.994075
+MSE: 4.420816
+
+***************************************************
+
+Modelo 390 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15]
+
+
+Done.
+R-squared: 0.979280
+MSE: 15.459300
+
+***************************************************
+
+Modelo 391 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.994241
+MSE: 4.296587
+
+***************************************************
+
+Modelo 392 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.995549
+MSE: 3.320544
+
+***************************************************
+
+Modelo 393 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.995523
+MSE: 3.339974
+
+***************************************************
+
+Modelo 394 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.995627
+MSE: 3.262304
+
+***************************************************
+
+Modelo 395 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.995758
+MSE: 3.164969
+
+***************************************************
+
+Modelo 396 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.992824
+MSE: 5.353656
+
+***************************************************
+
+Modelo 397 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.995070
+MSE: 3.677985
+
+***************************************************
+
+Modelo 398 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.994846
+MSE: 3.845461
+
+***************************************************
+
+Modelo 399 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.995376
+MSE: 3.449996
+
+***************************************************
+
+Modelo 400 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.995544
+MSE: 3.324573
+
+***************************************************
+
+Modelo 401 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.988545
+MSE: 8.546478
+
+***************************************************
+
+Modelo 402 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.987859
+MSE: 9.058279
+
+***************************************************
+
+Modelo 403 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.992695
+MSE: 5.450202
+
+***************************************************
+
+Modelo 404 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.993203
+MSE: 5.071423
+
+***************************************************
+
+Modelo 405 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45]
+
+
+Done.
+R-squared: 0.993250
+MSE: 5.036435
+
+***************************************************
+
+Modelo 406 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.994249
+MSE: 4.290505
+
+***************************************************
+
+Modelo 407 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995435
+MSE: 3.405876
+
+***************************************************
+
+Modelo 408 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995514
+MSE: 3.346813
+
+***************************************************
+
+Modelo 409 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995789
+MSE: 3.141451
+
+***************************************************
+
+Modelo 410 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995735
+MSE: 3.181761
+
+***************************************************
+
+Modelo 411 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.993059
+MSE: 5.178984
+
+***************************************************
+
+Modelo 412 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995245
+MSE: 3.547843
+
+***************************************************
+
+Modelo 413 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.994700
+MSE: 3.954042
+
+***************************************************
+
+Modelo 414 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995594
+MSE: 3.287477
+
+***************************************************
+
+Modelo 415 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995692
+MSE: 3.214391
+
+***************************************************
+
+Modelo 416 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.989779
+MSE: 7.626141
+
+***************************************************
+
+Modelo 417 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.991473
+MSE: 6.362176
+
+***************************************************
+
+Modelo 418 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995155
+MSE: 3.614696
+
+***************************************************
+
+Modelo 419 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.995479
+MSE: 3.373315
+
+***************************************************
+
+Modelo 420 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60]
+
+
+Done.
+R-squared: 0.993306
+MSE: 4.994292
+
+***************************************************
+
+Modelo 421 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.992225
+MSE: 5.800604
+
+***************************************************
+
+Modelo 422 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.992738
+MSE: 5.418074
+
+***************************************************
+
+Modelo 423 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.994874
+MSE: 3.824180
+
+***************************************************
+
+Modelo 424 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.989058
+MSE: 8.163609
+
+***************************************************
+
+Modelo 425 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.994486
+MSE: 4.114302
+
+***************************************************
+
+Modelo 426 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.968468
+MSE: 23.525601
+
+***************************************************
+
+Modelo 427 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.979991
+MSE: 14.928522
+
+***************************************************
+
+Modelo 428 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.979027
+MSE: 15.647405
+
+***************************************************
+
+Modelo 429 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.978698
+MSE: 15.893479
+
+***************************************************
+
+Modelo 430 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.991793
+MSE: 6.123243
+
+***************************************************
+
+Modelo 431 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.967776
+MSE: 24.041922
+
+***************************************************
+
+Modelo 432 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.965527
+MSE: 25.720211
+
+***************************************************
+
+Modelo 433 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.962383
+MSE: 28.066058
+
+***************************************************
+
+Modelo 434 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.976012
+MSE: 17.897285
+
+***************************************************
+
+Modelo 435 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5]
+
+
+Done.
+R-squared: 0.971948
+MSE: 20.929259
+
+***************************************************
+
+Modelo 436 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.995010
+MSE: 3.722990
+
+***************************************************
+
+Modelo 437 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.993481
+MSE: 4.864050
+
+***************************************************
+
+Modelo 438 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.994731
+MSE: 3.931433
+
+***************************************************
+
+Modelo 439 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.995539
+MSE: 3.328457
+
+***************************************************
+
+Modelo 440 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.995325
+MSE: 3.487682
+
+***************************************************
+
+Modelo 441 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.978565
+MSE: 15.992756
+
+***************************************************
+
+Modelo 442 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.992932
+MSE: 5.273735
+
+***************************************************
+
+Modelo 443 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.979049
+MSE: 15.631637
+
+***************************************************
+
+Modelo 444 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.994204
+MSE: 4.324030
+
+***************************************************
+
+Modelo 445 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.995477
+MSE: 3.374286
+
+***************************************************
+
+Modelo 446 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.955074
+MSE: 33.518964
+
+***************************************************
+
+Modelo 447 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.965950
+MSE: 25.404375
+
+***************************************************
+
+Modelo 448 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.993624
+MSE: 4.756946
+
+***************************************************
+
+Modelo 449 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.984498
+MSE: 11.566154
+
+***************************************************
+
+Modelo 450 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15]
+
+
+Done.
+R-squared: 0.993938
+MSE: 4.522760
+
+***************************************************
+
+Modelo 451 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.993933
+MSE: 4.526345
+
+***************************************************
+
+Modelo 452 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.995527
+MSE: 3.337374
+
+***************************************************
+
+Modelo 453 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.994085
+MSE: 4.412986
+
+***************************************************
+
+Modelo 454 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.995612
+MSE: 3.273527
+
+***************************************************
+
+Modelo 455 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.995455
+MSE: 3.391051
+
+***************************************************
+
+Modelo 456 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.992805
+MSE: 5.368162
+
+***************************************************
+
+Modelo 457 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.994616
+MSE: 4.016741
+
+***************************************************
+
+Modelo 458 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.995294
+MSE: 3.511336
+
+***************************************************
+
+Modelo 459 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.995364
+MSE: 3.458783
+
+***************************************************
+
+Modelo 460 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.995295
+MSE: 3.510090
+
+***************************************************
+
+Modelo 461 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.991767
+MSE: 6.142609
+
+***************************************************
+
+Modelo 462 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.988791
+MSE: 8.362991
+
+***************************************************
+
+Modelo 463 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.994536
+MSE: 4.076615
+
+***************************************************
+
+Modelo 464 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.994658
+MSE: 3.985539
+
+***************************************************
+
+Modelo 465 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45]
+
+
+Done.
+R-squared: 0.995327
+MSE: 3.486789
+
+***************************************************
+
+Modelo 466 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.993540
+MSE: 4.819729
+
+***************************************************
+
+Modelo 467 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.993631
+MSE: 4.751644
+
+***************************************************
+
+Modelo 468 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.994754
+MSE: 3.914041
+
+***************************************************
+
+Modelo 469 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.995669
+MSE: 3.230971
+
+***************************************************
+
+Modelo 470 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.995234
+MSE: 3.556119
+
+***************************************************
+
+Modelo 471 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.992292
+MSE: 5.750594
+
+***************************************************
+
+Modelo 472 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.992083
+MSE: 5.907064
+
+***************************************************
+
+Modelo 473 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.995061
+MSE: 3.684948
+
+***************************************************
+
+Modelo 474 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.995039
+MSE: 3.701393
+
+***************************************************
+
+Modelo 475 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.995348
+MSE: 3.470538
+
+***************************************************
+
+Modelo 476 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.988068
+MSE: 8.902251
+
+***************************************************
+
+Modelo 477 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.993624
+MSE: 4.757440
+
+***************************************************
+
+Modelo 478 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.973933
+MSE: 19.448686
+
+***************************************************
+
+Modelo 479 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.994130
+MSE: 4.379441
+
+***************************************************
+
+Modelo 480 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60]
+
+
+Done.
+R-squared: 0.994863
+MSE: 3.832499
+
+***************************************************
+
+Modelo 481 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.992156
+MSE: 5.852598
+
+***************************************************
+
+Modelo 482 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.994178
+MSE: 4.343756
+
+***************************************************
+
+Modelo 483 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.992801
+MSE: 5.371178
+
+***************************************************
+
+Modelo 484 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.990827
+MSE: 6.843939
+
+***************************************************
+
+Modelo 485 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.992422
+MSE: 5.653722
+
+***************************************************
+
+Modelo 486 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.968336
+MSE: 23.624494
+
+***************************************************
+
+Modelo 487 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.978787
+MSE: 15.826709
+
+***************************************************
+
+Modelo 488 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.978576
+MSE: 15.984065
+
+***************************************************
+
+Modelo 489 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.981528
+MSE: 13.782039
+
+***************************************************
+
+Modelo 490 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.990175
+MSE: 7.330056
+
+***************************************************
+
+Modelo 491 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.958917
+MSE: 30.651566
+
+***************************************************
+
+Modelo 492 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.967583
+MSE: 24.186292
+
+***************************************************
+
+Modelo 493 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.972907
+MSE: 20.213935
+
+***************************************************
+
+Modelo 494 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.969435
+MSE: 22.804247
+
+***************************************************
+
+Modelo 495 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [5, 5, 5]
+
+
+Done.
+R-squared: 0.972868
+MSE: 20.243103
+
+***************************************************
+
+Modelo 496 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.991067
+MSE: 6.665007
+
+***************************************************
+
+Modelo 497 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993631
+MSE: 4.752155
+
+***************************************************
+
+Modelo 498 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.994520
+MSE: 4.088743
+
+***************************************************
+
+Modelo 499 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.995523
+MSE: 3.340060
+
+***************************************************
+
+Modelo 500 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.995287
+MSE: 3.516566
+
+***************************************************
+
+Modelo 501 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.973987
+MSE: 19.408254
+
+***************************************************
+
+Modelo 502 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.991394
+MSE: 6.420658
+
+***************************************************
+
+Modelo 503 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993236
+MSE: 5.046818
+
+***************************************************
+
+Modelo 504 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.992580
+MSE: 5.536294
+
+***************************************************
+
+Modelo 505 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.993170
+MSE: 5.095615
+
+***************************************************
+
+Modelo 506 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.988477
+MSE: 8.597263
+
+***************************************************
+
+Modelo 507 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.971705
+MSE: 21.110614
+
+***************************************************
+
+Modelo 508 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.971652
+MSE: 21.150460
+
+***************************************************
+
+Modelo 509 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.992789
+MSE: 5.380281
+
+***************************************************
+
+Modelo 510 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [15, 15, 15]
+
+
+Done.
+R-squared: 0.971293
+MSE: 21.417777
+
+***************************************************
+
+Modelo 511 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.992066
+MSE: 5.919500
+
+***************************************************
+
+Modelo 512 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.995539
+MSE: 3.328169
+
+***************************************************
+
+Modelo 513 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.995605
+MSE: 3.279211
+
+***************************************************
+
+Modelo 514 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.994689
+MSE: 3.962334
+
+***************************************************
+
+Modelo 515 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.995339
+MSE: 3.477521
+
+***************************************************
+
+Modelo 516 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.991269
+MSE: 6.514262
+
+***************************************************
+
+Modelo 517 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.992440
+MSE: 5.640601
+
+***************************************************
+
+Modelo 518 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.995502
+MSE: 3.355737
+
+***************************************************
+
+Modelo 519 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.995138
+MSE: 3.627519
+
+***************************************************
+
+Modelo 520 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.994923
+MSE: 3.787631
+
+***************************************************
+
+Modelo 521 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.985924
+MSE: 10.501749
+
+***************************************************
+
+Modelo 522 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.993991
+MSE: 4.482988
+
+***************************************************
+
+Modelo 523 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.972506
+MSE: 20.512927
+
+***************************************************
+
+Modelo 524 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.993944
+MSE: 4.518178
+
+***************************************************
+
+Modelo 525 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [45, 45, 45]
+
+
+Done.
+R-squared: 0.992729
+MSE: 5.424590
+
+***************************************************
+
+Modelo 526 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.994195
+MSE: 4.331000
+
+***************************************************
+
+Modelo 527 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.994713
+MSE: 3.944465
+
+***************************************************
+
+Modelo 528 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.994511
+MSE: 4.094989
+
+***************************************************
+
+Modelo 529 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.995482
+MSE: 3.371057
+
+***************************************************
+
+Modelo 530 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.995182
+MSE: 3.594343
+
+***************************************************
+
+Modelo 531 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.992775
+MSE: 5.390759
+
+***************************************************
+
+Modelo 532 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.993786
+MSE: 4.635873
+
+***************************************************
+
+Modelo 533 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.995051
+MSE: 3.692150
+
+***************************************************
+
+Modelo 534 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.995186
+MSE: 3.591934
+
+***************************************************
+
+Modelo 535 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.995167
+MSE: 3.605942
+
+***************************************************
+
+Modelo 536 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.987236
+MSE: 9.523131
+
+***************************************************
+
+Modelo 537 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.993798
+MSE: 4.627010
+
+***************************************************
+
+Modelo 538 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.995070
+MSE: 3.678457
+
+***************************************************
+
+Modelo 539 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.995219
+MSE: 3.567366
+
+***************************************************
+
+Modelo 540 de 540
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [60, 60, 60]
+
+
+Done.
+R-squared: 0.994740
+MSE: 3.924174
+
+Process finished with exit code 0
+

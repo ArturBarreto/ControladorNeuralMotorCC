@@ -1,0 +1,61 @@
+ÍNDICE MODELO,HIDDEN_LAYERS_STRUCTURE,r2Score,MSE,LEARNING_RATE_RBM,LEARNING_RATE,N_EPOCHS_RBM,N_ITER_BACKPROP,BATCH_SIZE,ACTIVATION_FUNCTION,DROPOUT_P,CONJUNTO DE TREINO
+1,[1],0.8998990118769011,46.73252466127982,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+2,[2],0.9879775295591452,5.612735767161785,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+3,[3],0.9909125217582953,4.24252356547233,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+4,"[1, 1]",0.8149975573481936,86.36908961368708,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+5,"[2, 2]",0.9854335851132348,6.800385847191355,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+6,"[3, 3]",0.9894447880189073,4.927740609361907,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+7,[1],0.9609308119760701,17.329809153301095,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+8,[2],0.9730175312275845,11.968537304242458,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+9,[3],0.981856504528423,8.047858934350725,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+10,"[1, 1]",0.9363838832166185,28.21802086736134,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+11,"[2, 2]",0.9778887912403172,9.807806287640352,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+12,"[3, 3]",0.9776442453905247,9.916278798088737,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+13,[1],0.9251075192760198,42.726428350010096,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+14,[2],0.9783013885866781,12.379135487084415,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+15,[3],0.984245812542461,8.987820340709254,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+16,"[1, 1]",0.8936325312985204,60.6830216640229,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+17,"[2, 2]",0.9768420788014277,13.211676943546099,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+18,"[3, 3]",0.9845451835328108,8.817028119038927,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+19,[1],0.9685524928988097,20.880861770728224,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+20,[2],0.9873301740195778,8.412650456047276,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+21,[3],0.9874063033858751,8.36210124178892,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+22,"[1, 1]",0.9292244488112111,46.99432919642345,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+23,"[2, 2]",0.9799186327381602,13.333847182622415,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+24,"[3, 3]",0.9861898459803844,9.169818014132659,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+25,[1],0.9722444998219609,20.708125825963055,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+26,[2],0.9877594414999186,9.132569183541797,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+27,[3],0.9877014598885793,9.175828735540593,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+28,"[1, 1]",0.9136136023418039,64.45210429942207,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+29,"[2, 2]",0.9872720920473468,9.496176170277122,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+30,"[3, 3]",0.9901242071607728,7.368239067356997,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+31,[1],0.9439692098689212,43.73397825478946,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+32,[2],0.9892380363916434,8.400086476125542,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+33,[3],0.989485873247159,8.206641200331683,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+34,"[1, 1]",0.9049968349239533,74.15327083291305,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+35,"[2, 2]",0.9806126173969089,15.132525655935176,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+36,"[3, 3]",0.9890764313200944,8.526224848767734,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+37,[1],0.9767796948565531,17.335499956569492,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+38,[2],0.9894184444068604,7.899834019927939,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+39,[3],0.9900731687687747,7.411038800510505,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+40,"[1, 1]",0.9117986200373824,65.84818800035609,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+41,"[2, 2]",0.9864936949843435,10.083353709863104,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+42,"[3, 3]",0.9894409440499319,7.883036542070557,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+43,[1],0.9707614936153647,22.925907196441866,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+44,[2],0.9889561066596131,8.659514630410925,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+45,[3],0.9790427221928333,16.432597471861158,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+46,"[1, 1]",0.8857489815529631,89.5842014485449,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+47,"[2, 2]",0.9887066052505552,8.855148636956818,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+48,"[3, 3]",0.9840326233296549,12.520016956383536,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+49,[1],0.9695681892631905,23.86344895902326,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+50,[2],0.9906218546466268,7.353978864617099,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+51,[3],0.9839568244381708,12.580437768603836,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+52,"[1, 1]",0.9110734805212725,69.73273713605803,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+53,"[2, 2]",0.9865414714432046,10.553657554467202,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+54,"[3, 3]",0.9899614538180563,7.871839651850011,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+55,[1],0.8724406969229586,103.4914266273567,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+56,[2],0.9897330534147876,8.32978013817438,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+57,[3],0.9829254901518785,13.85289305067546,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+58,"[1, 1]",0.9109961419206892,72.21061910634184,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+59,"[2, 2]",0.9813523370072413,15.129223818518174,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+60,"[3, 3]",0.9877045300047793,9.975561955608299,0.01,0.01,5,5,16,sigmoid,0.0,conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv

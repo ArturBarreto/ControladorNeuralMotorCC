@@ -1,0 +1,246 @@
+/usr/bin/python3.6 /home/arturbarreto/PycharmProjects/DBN/Teste.py
+
+********* Combinações que serão Testadas **********
+
+Total de Testes = 12
+
+Arquivos de teste: ['conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv', 'conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv']
+HIDDEN_LAYERS_STRUCTURE = [[90, 90, 90]]
+LEARNING_RATE_RBM = [0.01]
+LEARNING_RATE = [0.01]
+N_EPOCHS_RBM = [3]
+N_ITER_BACKPROP = [50]
+BATCH_SIZE = [1, 8, 16, 32, 64, 128]
+ACTIVATION_FUNCTION = ['sigmoid']
+DROPOUT_P = [0.0]
+
+***************************************************
+
+Modelo 1 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 1
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.572863
+MSE: 189.463908
+
+***************************************************
+
+Modelo 2 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 8
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.989640
+MSE: 4.595269
+
+***************************************************
+
+Modelo 3 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 16
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.988006
+MSE: 5.320253
+
+***************************************************
+
+Modelo 4 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 32
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.983169
+MSE: 7.465517
+
+***************************************************
+
+Modelo 5 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 64
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.990318
+MSE: 4.294654
+
+***************************************************
+
+Modelo 6 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 128
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.977547
+MSE: 9.959405
+
+***************************************************
+
+Modelo 7 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 1
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: -1.053781
+MSE: 1171.689552
+
+***************************************************
+
+Modelo 8 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 8
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.994115
+MSE: 3.357505
+
+***************************************************
+
+Modelo 9 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 16
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.994772
+MSE: 2.982472
+
+***************************************************
+
+Modelo 10 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 32
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.994747
+MSE: 2.996579
+
+***************************************************
+
+Modelo 11 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 64
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.994011
+MSE: 3.416930
+
+***************************************************
+
+Modelo 12 de 12
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [90, 90, 90]
+
+LEARNING_RATE_RBM = 0.01
+LEARNING_RATE = 0.01
+N_EPOCHS_RBM = 3
+N_ITER_BACKPROP = 50
+BATCH_SIZE = 128
+ACTIVATION_FUNCTION = sigmoid
+DROPOUT_P = 0.0
+
+Done.
+R-squared: 0.993199
+MSE: 3.879807
+
+Process finished with exit code 0
+

@@ -1,0 +1,13 @@
+ÍNDICE MODELO,HIDDEN_LAYERS_STRUCTURE,r2Score,MSE,LEARNING_RATE_RBM,LEARNING_RATE,N_EPOCHS_RBM,N_ITER_BACKPROP,BATCH_SIZE,ACTIVATION_FUNCTION,DROPOUT_P,CONJUNTO DE TREINO
+9,"[90, 90, 90]","0,994772212285037","2,98247160560253","0,01","0,01",3,50,16,sigmoid,0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+10,"[90, 90, 90]","0,994747483639351","2,99657938648914","0,01","0,01",3,50,32,sigmoid,0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+8,"[90, 90, 90]","0,994114839789598","3,35750496748521","0,01","0,01",3,50,8,sigmoid,0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+11,"[90, 90, 90]","0,994010677350243","3,41693001201384","0,01","0,01",3,50,64,sigmoid,0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+12,"[90, 90, 90]","0,993199329268827","3,87980699689148","0,01","0,01",3,50,128,sigmoid,0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+5,"[90, 90, 90]","0,990317917755254","4,29465381786907","0,01","0,01",3,50,64,sigmoid,0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+2,"[90, 90, 90]","0,989640196968323","4,59526850915842","0,01","0,01",3,50,8,sigmoid,0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+3,"[90, 90, 90]","0,988005755971324","5,32025287619918","0,01","0,01",3,50,16,sigmoid,0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+4,"[90, 90, 90]","0,983169365029543","7,46551711768989","0,01","0,01",3,50,32,sigmoid,0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+6,"[90, 90, 90]","0,977547018924108","9,95940526661492","0,01","0,01",3,50,128,sigmoid,0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+1,"[90, 90, 90]","0,572863094501427","189,463908236026","0,01","0,01",3,50,1,sigmoid,0,conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+7,"[90, 90, 90]","-1,05378124471385","1171,68955214971","0,01","0,01",3,50,1,sigmoid,0,conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv

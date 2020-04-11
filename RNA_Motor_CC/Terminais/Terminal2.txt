@@ -1,0 +1,13 @@
+********* Combinações que serão Testadas **********
+
+Total de Testes = 2430
+HIDDEN_LAYERS_STRUCTURE = [[5], [15], [45], [5, 5], [15, 15], [45, 45], [5, 5, 5], [15, 15, 15], [45, 45, 45]]
+LEARNING_RATE_RBM = [0.01]
+LEARNING_RATE = [0.01]
+N_EPOCHS_RBM = [10, 20, 40]
+N_ITER_BACKPROP = [25, 50, 100]
+BATCH_SIZE = [16]
+ACTIVATION_FUNCTION = ['sigmoid']
+DROPOUT_P = [0.0, 0.1, 0.2]
+
+***************************************************

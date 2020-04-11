@@ -1,0 +1,1725 @@
+/usr/bin/python3.6 /home/arturbarreto/PycharmProjects/DBN/Teste.py
+
+********* Combinações que serão Testadas **********
+
+Total de Testes = 60
+HIDDEN_LAYERS_STRUCTURE = [[1], [2], [3], [1, 1], [2, 2], [3, 3]]
+LEARNING_RATE_RBM = [0.01]
+LEARNING_RATE = [0.01]
+N_EPOCHS_RBM = [5]
+N_ITER_BACKPROP = [5]
+BATCH_SIZE = [16]
+ACTIVATION_FUNCTION = ['sigmoid']
+DROPOUT_P = [0.0]
+
+***************************************************
+
+Modelo 1 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 1.094608
+>> Epoch 2 finished 	RBM Reconstruction error 0.883268
+>> Epoch 3 finished 	RBM Reconstruction error 0.841922
+>> Epoch 4 finished 	RBM Reconstruction error 0.842856
+>> Epoch 5 finished 	RBM Reconstruction error 0.852736
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 770.188037
+>> Epoch 2 finished 	ANN training loss 440.388392
+>> Epoch 3 finished 	ANN training loss 285.206312
+>> Epoch 4 finished 	ANN training loss 198.993229
+>> Epoch 5 finished 	ANN training loss 146.474077
+[END] Fine tuning step
+
+Done.
+R-squared: 0.899899
+MSE: 46.732525
+
+***************************************************
+
+Modelo 2 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.954089
+>> Epoch 2 finished 	RBM Reconstruction error 0.798757
+>> Epoch 3 finished 	RBM Reconstruction error 0.798275
+>> Epoch 4 finished 	RBM Reconstruction error 0.817806
+>> Epoch 5 finished 	RBM Reconstruction error 0.836160
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 620.122525
+>> Epoch 2 finished 	ANN training loss 273.558905
+>> Epoch 3 finished 	ANN training loss 158.327895
+>> Epoch 4 finished 	ANN training loss 98.230558
+>> Epoch 5 finished 	ANN training loss 67.966183
+[END] Fine tuning step
+
+Done.
+R-squared: 0.987978
+MSE: 5.612736
+
+***************************************************
+
+Modelo 3 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.857667
+>> Epoch 2 finished 	RBM Reconstruction error 0.807643
+>> Epoch 3 finished 	RBM Reconstruction error 0.812949
+>> Epoch 4 finished 	RBM Reconstruction error 0.825524
+>> Epoch 5 finished 	RBM Reconstruction error 0.834900
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 533.925244
+>> Epoch 2 finished 	ANN training loss 133.490579
+>> Epoch 3 finished 	ANN training loss 62.450900
+>> Epoch 4 finished 	ANN training loss 32.754321
+>> Epoch 5 finished 	ANN training loss 19.629465
+[END] Fine tuning step
+
+Done.
+R-squared: 0.990913
+MSE: 4.242524
+
+***************************************************
+
+Modelo 4 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 1.375615
+>> Epoch 2 finished 	RBM Reconstruction error 1.107544
+>> Epoch 3 finished 	RBM Reconstruction error 1.012409
+>> Epoch 4 finished 	RBM Reconstruction error 0.969411
+>> Epoch 5 finished 	RBM Reconstruction error 0.944928
+>> Epoch 1 finished 	RBM Reconstruction error 0.013252
+>> Epoch 2 finished 	RBM Reconstruction error 0.010227
+>> Epoch 3 finished 	RBM Reconstruction error 0.009169
+>> Epoch 4 finished 	RBM Reconstruction error 0.008804
+>> Epoch 5 finished 	RBM Reconstruction error 0.008669
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 1058.809978
+>> Epoch 2 finished 	ANN training loss 757.441825
+>> Epoch 3 finished 	ANN training loss 449.953908
+>> Epoch 4 finished 	ANN training loss 295.385479
+>> Epoch 5 finished 	ANN training loss 214.997963
+[END] Fine tuning step
+
+Done.
+R-squared: 0.814998
+MSE: 86.369090
+
+***************************************************
+
+Modelo 5 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.912552
+>> Epoch 2 finished 	RBM Reconstruction error 0.831993
+>> Epoch 3 finished 	RBM Reconstruction error 0.835114
+>> Epoch 4 finished 	RBM Reconstruction error 0.844419
+>> Epoch 5 finished 	RBM Reconstruction error 0.853353
+>> Epoch 1 finished 	RBM Reconstruction error 0.336359
+>> Epoch 2 finished 	RBM Reconstruction error 0.327538
+>> Epoch 3 finished 	RBM Reconstruction error 0.323917
+>> Epoch 4 finished 	RBM Reconstruction error 0.320754
+>> Epoch 5 finished 	RBM Reconstruction error 0.317124
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 888.970665
+>> Epoch 2 finished 	ANN training loss 342.579026
+>> Epoch 3 finished 	ANN training loss 139.597019
+>> Epoch 4 finished 	ANN training loss 70.317396
+>> Epoch 5 finished 	ANN training loss 40.530692
+[END] Fine tuning step
+
+Done.
+R-squared: 0.985434
+MSE: 6.800386
+
+***************************************************
+
+Modelo 6 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-05-25_DuracaoSetp_6s_DuracaoSimulacao_60s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.868896
+>> Epoch 2 finished 	RBM Reconstruction error 0.845982
+>> Epoch 3 finished 	RBM Reconstruction error 0.851939
+>> Epoch 4 finished 	RBM Reconstruction error 0.861128
+>> Epoch 5 finished 	RBM Reconstruction error 0.870107
+>> Epoch 1 finished 	RBM Reconstruction error 0.427713
+>> Epoch 2 finished 	RBM Reconstruction error 0.418435
+>> Epoch 3 finished 	RBM Reconstruction error 0.410409
+>> Epoch 4 finished 	RBM Reconstruction error 0.401794
+>> Epoch 5 finished 	RBM Reconstruction error 0.392401
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 734.370284
+>> Epoch 2 finished 	ANN training loss 193.964747
+>> Epoch 3 finished 	ANN training loss 73.037842
+>> Epoch 4 finished 	ANN training loss 30.697433
+>> Epoch 5 finished 	ANN training loss 16.907664
+[END] Fine tuning step
+
+Done.
+R-squared: 0.989445
+MSE: 4.927741
+
+***************************************************
+
+Modelo 7 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.711737
+>> Epoch 2 finished 	RBM Reconstruction error 0.671430
+>> Epoch 3 finished 	RBM Reconstruction error 0.670749
+>> Epoch 4 finished 	RBM Reconstruction error 0.680330
+>> Epoch 5 finished 	RBM Reconstruction error 0.690682
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 576.982316
+>> Epoch 2 finished 	ANN training loss 249.689156
+>> Epoch 3 finished 	ANN training loss 138.384383
+>> Epoch 4 finished 	ANN training loss 91.180633
+>> Epoch 5 finished 	ANN training loss 67.099437
+[END] Fine tuning step
+
+Done.
+R-squared: 0.960931
+MSE: 17.329809
+
+***************************************************
+
+Modelo 8 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.681316
+>> Epoch 2 finished 	RBM Reconstruction error 0.637761
+>> Epoch 3 finished 	RBM Reconstruction error 0.655895
+>> Epoch 4 finished 	RBM Reconstruction error 0.671884
+>> Epoch 5 finished 	RBM Reconstruction error 0.684438
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 443.346350
+>> Epoch 2 finished 	ANN training loss 133.735562
+>> Epoch 3 finished 	ANN training loss 61.928701
+>> Epoch 4 finished 	ANN training loss 36.143895
+>> Epoch 5 finished 	ANN training loss 24.222535
+[END] Fine tuning step
+
+Done.
+R-squared: 0.973018
+MSE: 11.968537
+
+***************************************************
+
+Modelo 9 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.701568
+>> Epoch 2 finished 	RBM Reconstruction error 0.641391
+>> Epoch 3 finished 	RBM Reconstruction error 0.657114
+>> Epoch 4 finished 	RBM Reconstruction error 0.670467
+>> Epoch 5 finished 	RBM Reconstruction error 0.681546
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 366.197298
+>> Epoch 2 finished 	ANN training loss 96.957195
+>> Epoch 3 finished 	ANN training loss 43.345689
+>> Epoch 4 finished 	ANN training loss 22.898535
+>> Epoch 5 finished 	ANN training loss 14.462104
+[END] Fine tuning step
+
+Done.
+R-squared: 0.981857
+MSE: 8.047859
+
+***************************************************
+
+Modelo 10 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.686047
+>> Epoch 2 finished 	RBM Reconstruction error 0.653857
+>> Epoch 3 finished 	RBM Reconstruction error 0.664443
+>> Epoch 4 finished 	RBM Reconstruction error 0.678274
+>> Epoch 5 finished 	RBM Reconstruction error 0.689964
+>> Epoch 1 finished 	RBM Reconstruction error 0.213393
+>> Epoch 2 finished 	RBM Reconstruction error 0.202708
+>> Epoch 3 finished 	RBM Reconstruction error 0.200820
+>> Epoch 4 finished 	RBM Reconstruction error 0.199605
+>> Epoch 5 finished 	RBM Reconstruction error 0.198160
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 791.157665
+>> Epoch 2 finished 	ANN training loss 349.567870
+>> Epoch 3 finished 	ANN training loss 194.901062
+>> Epoch 4 finished 	ANN training loss 151.641515
+>> Epoch 5 finished 	ANN training loss 131.050279
+[END] Fine tuning step
+
+Done.
+R-squared: 0.936384
+MSE: 28.218021
+
+***************************************************
+
+Modelo 11 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.700918
+>> Epoch 2 finished 	RBM Reconstruction error 0.647377
+>> Epoch 3 finished 	RBM Reconstruction error 0.642825
+>> Epoch 4 finished 	RBM Reconstruction error 0.645502
+>> Epoch 5 finished 	RBM Reconstruction error 0.641512
+>> Epoch 1 finished 	RBM Reconstruction error 0.248720
+>> Epoch 2 finished 	RBM Reconstruction error 0.235708
+>> Epoch 3 finished 	RBM Reconstruction error 0.222407
+>> Epoch 4 finished 	RBM Reconstruction error 0.206441
+>> Epoch 5 finished 	RBM Reconstruction error 0.187920
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 528.104587
+>> Epoch 2 finished 	ANN training loss 151.264696
+>> Epoch 3 finished 	ANN training loss 69.927183
+>> Epoch 4 finished 	ANN training loss 39.345422
+>> Epoch 5 finished 	ANN training loss 25.337609
+[END] Fine tuning step
+
+Done.
+R-squared: 0.977889
+MSE: 9.807806
+
+***************************************************
+
+Modelo 12 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.685367
+>> Epoch 2 finished 	RBM Reconstruction error 0.652959
+>> Epoch 3 finished 	RBM Reconstruction error 0.660637
+>> Epoch 4 finished 	RBM Reconstruction error 0.670434
+>> Epoch 5 finished 	RBM Reconstruction error 0.680990
+>> Epoch 1 finished 	RBM Reconstruction error 0.561574
+>> Epoch 2 finished 	RBM Reconstruction error 0.535232
+>> Epoch 3 finished 	RBM Reconstruction error 0.500100
+>> Epoch 4 finished 	RBM Reconstruction error 0.450745
+>> Epoch 5 finished 	RBM Reconstruction error 0.389056
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 398.732703
+>> Epoch 2 finished 	ANN training loss 57.067758
+>> Epoch 3 finished 	ANN training loss 17.182977
+>> Epoch 4 finished 	ANN training loss 10.438893
+>> Epoch 5 finished 	ANN training loss 8.398217
+[END] Fine tuning step
+
+Done.
+R-squared: 0.977644
+MSE: 9.916279
+
+***************************************************
+
+Modelo 13 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.673267
+>> Epoch 2 finished 	RBM Reconstruction error 0.636854
+>> Epoch 3 finished 	RBM Reconstruction error 0.640997
+>> Epoch 4 finished 	RBM Reconstruction error 0.650678
+>> Epoch 5 finished 	RBM Reconstruction error 0.659370
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 477.432158
+>> Epoch 2 finished 	ANN training loss 158.783798
+>> Epoch 3 finished 	ANN training loss 81.721601
+>> Epoch 4 finished 	ANN training loss 54.420735
+>> Epoch 5 finished 	ANN training loss 41.867445
+[END] Fine tuning step
+
+Done.
+R-squared: 0.925108
+MSE: 42.726428
+
+***************************************************
+
+Modelo 14 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.635435
+>> Epoch 2 finished 	RBM Reconstruction error 0.623025
+>> Epoch 3 finished 	RBM Reconstruction error 0.632198
+>> Epoch 4 finished 	RBM Reconstruction error 0.643387
+>> Epoch 5 finished 	RBM Reconstruction error 0.653161
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 358.637935
+>> Epoch 2 finished 	ANN training loss 75.257989
+>> Epoch 3 finished 	ANN training loss 34.328516
+>> Epoch 4 finished 	ANN training loss 21.183657
+>> Epoch 5 finished 	ANN training loss 15.429920
+[END] Fine tuning step
+
+Done.
+R-squared: 0.978301
+MSE: 12.379135
+
+***************************************************
+
+Modelo 15 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.607009
+>> Epoch 2 finished 	RBM Reconstruction error 0.628197
+>> Epoch 3 finished 	RBM Reconstruction error 0.637234
+>> Epoch 4 finished 	RBM Reconstruction error 0.643402
+>> Epoch 5 finished 	RBM Reconstruction error 0.651517
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 272.166804
+>> Epoch 2 finished 	ANN training loss 52.616787
+>> Epoch 3 finished 	ANN training loss 22.260728
+>> Epoch 4 finished 	ANN training loss 13.381249
+>> Epoch 5 finished 	ANN training loss 10.286661
+[END] Fine tuning step
+
+Done.
+R-squared: 0.984246
+MSE: 8.987820
+
+***************************************************
+
+Modelo 16 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.627646
+>> Epoch 2 finished 	RBM Reconstruction error 0.612329
+>> Epoch 3 finished 	RBM Reconstruction error 0.629034
+>> Epoch 4 finished 	RBM Reconstruction error 0.643577
+>> Epoch 5 finished 	RBM Reconstruction error 0.654600
+>> Epoch 1 finished 	RBM Reconstruction error 0.202485
+>> Epoch 2 finished 	RBM Reconstruction error 0.191396
+>> Epoch 3 finished 	RBM Reconstruction error 0.177379
+>> Epoch 4 finished 	RBM Reconstruction error 0.160135
+>> Epoch 5 finished 	RBM Reconstruction error 0.140668
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 530.212348
+>> Epoch 2 finished 	ANN training loss 208.198309
+>> Epoch 3 finished 	ANN training loss 130.296648
+>> Epoch 4 finished 	ANN training loss 110.588287
+>> Epoch 5 finished 	ANN training loss 106.795491
+[END] Fine tuning step
+
+Done.
+R-squared: 0.893633
+MSE: 60.683022
+
+***************************************************
+
+Modelo 17 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.664166
+>> Epoch 2 finished 	RBM Reconstruction error 0.639308
+>> Epoch 3 finished 	RBM Reconstruction error 0.641229
+>> Epoch 4 finished 	RBM Reconstruction error 0.649294
+>> Epoch 5 finished 	RBM Reconstruction error 0.657270
+>> Epoch 1 finished 	RBM Reconstruction error 0.419177
+>> Epoch 2 finished 	RBM Reconstruction error 0.415316
+>> Epoch 3 finished 	RBM Reconstruction error 0.412029
+>> Epoch 4 finished 	RBM Reconstruction error 0.402267
+>> Epoch 5 finished 	RBM Reconstruction error 0.374570
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 406.052211
+>> Epoch 2 finished 	ANN training loss 81.863891
+>> Epoch 3 finished 	ANN training loss 37.351025
+>> Epoch 4 finished 	ANN training loss 23.036124
+>> Epoch 5 finished 	ANN training loss 16.521769
+[END] Fine tuning step
+
+Done.
+R-squared: 0.976842
+MSE: 13.211677
+
+***************************************************
+
+Modelo 18 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-11-13_DuracaoSetp_6s_DuracaoSimulacao_180s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.595442
+>> Epoch 2 finished 	RBM Reconstruction error 0.608118
+>> Epoch 3 finished 	RBM Reconstruction error 0.622499
+>> Epoch 4 finished 	RBM Reconstruction error 0.636106
+>> Epoch 5 finished 	RBM Reconstruction error 0.647488
+>> Epoch 1 finished 	RBM Reconstruction error 0.566115
+>> Epoch 2 finished 	RBM Reconstruction error 0.474636
+>> Epoch 3 finished 	RBM Reconstruction error 0.351693
+>> Epoch 4 finished 	RBM Reconstruction error 0.225934
+>> Epoch 5 finished 	RBM Reconstruction error 0.131108
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 277.027542
+>> Epoch 2 finished 	ANN training loss 32.934289
+>> Epoch 3 finished 	ANN training loss 11.467901
+>> Epoch 4 finished 	ANN training loss 8.685757
+>> Epoch 5 finished 	ANN training loss 7.692544
+[END] Fine tuning step
+
+Done.
+R-squared: 0.984545
+MSE: 8.817028
+
+***************************************************
+
+Modelo 19 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.550045
+>> Epoch 2 finished 	RBM Reconstruction error 0.538330
+>> Epoch 3 finished 	RBM Reconstruction error 0.550228
+>> Epoch 4 finished 	RBM Reconstruction error 0.561225
+>> Epoch 5 finished 	RBM Reconstruction error 0.568200
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 431.311394
+>> Epoch 2 finished 	ANN training loss 137.308687
+>> Epoch 3 finished 	ANN training loss 71.702988
+>> Epoch 4 finished 	ANN training loss 49.810134
+>> Epoch 5 finished 	ANN training loss 40.083269
+[END] Fine tuning step
+
+Done.
+R-squared: 0.968552
+MSE: 20.880862
+
+***************************************************
+
+Modelo 20 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.553802
+>> Epoch 2 finished 	RBM Reconstruction error 0.533546
+>> Epoch 3 finished 	RBM Reconstruction error 0.541757
+>> Epoch 4 finished 	RBM Reconstruction error 0.552918
+>> Epoch 5 finished 	RBM Reconstruction error 0.561664
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 299.143798
+>> Epoch 2 finished 	ANN training loss 62.324437
+>> Epoch 3 finished 	ANN training loss 28.097908
+>> Epoch 4 finished 	ANN training loss 17.707519
+>> Epoch 5 finished 	ANN training loss 13.472038
+[END] Fine tuning step
+
+Done.
+R-squared: 0.987330
+MSE: 8.412650
+
+***************************************************
+
+Modelo 21 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.548755
+>> Epoch 2 finished 	RBM Reconstruction error 0.535246
+>> Epoch 3 finished 	RBM Reconstruction error 0.540610
+>> Epoch 4 finished 	RBM Reconstruction error 0.553068
+>> Epoch 5 finished 	RBM Reconstruction error 0.562972
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 207.891134
+>> Epoch 2 finished 	ANN training loss 19.525872
+>> Epoch 3 finished 	ANN training loss 8.958105
+>> Epoch 4 finished 	ANN training loss 7.438892
+>> Epoch 5 finished 	ANN training loss 6.827216
+[END] Fine tuning step
+
+Done.
+R-squared: 0.987406
+MSE: 8.362101
+
+***************************************************
+
+Modelo 22 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.679133
+>> Epoch 2 finished 	RBM Reconstruction error 0.629269
+>> Epoch 3 finished 	RBM Reconstruction error 0.599287
+>> Epoch 4 finished 	RBM Reconstruction error 0.590065
+>> Epoch 5 finished 	RBM Reconstruction error 0.586583
+>> Epoch 1 finished 	RBM Reconstruction error 0.132106
+>> Epoch 2 finished 	RBM Reconstruction error 0.111497
+>> Epoch 3 finished 	RBM Reconstruction error 0.091471
+>> Epoch 4 finished 	RBM Reconstruction error 0.073246
+>> Epoch 5 finished 	RBM Reconstruction error 0.058496
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 468.773547
+>> Epoch 2 finished 	ANN training loss 181.903644
+>> Epoch 3 finished 	ANN training loss 139.515124
+>> Epoch 4 finished 	ANN training loss 122.553254
+>> Epoch 5 finished 	ANN training loss 120.275888
+[END] Fine tuning step
+
+Done.
+R-squared: 0.929224
+MSE: 46.994329
+
+***************************************************
+
+Modelo 23 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.523119
+>> Epoch 2 finished 	RBM Reconstruction error 0.521459
+>> Epoch 3 finished 	RBM Reconstruction error 0.536638
+>> Epoch 4 finished 	RBM Reconstruction error 0.549806
+>> Epoch 5 finished 	RBM Reconstruction error 0.558864
+>> Epoch 1 finished 	RBM Reconstruction error 0.271027
+>> Epoch 2 finished 	RBM Reconstruction error 0.180604
+>> Epoch 3 finished 	RBM Reconstruction error 0.117118
+>> Epoch 4 finished 	RBM Reconstruction error 0.075525
+>> Epoch 5 finished 	RBM Reconstruction error 0.050984
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 386.240950
+>> Epoch 2 finished 	ANN training loss 103.266045
+>> Epoch 3 finished 	ANN training loss 42.293693
+>> Epoch 4 finished 	ANN training loss 23.537591
+>> Epoch 5 finished 	ANN training loss 18.105485
+[END] Fine tuning step
+
+Done.
+R-squared: 0.979919
+MSE: 13.333847
+
+***************************************************
+
+Modelo 24 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-13-35_DuracaoSetp_6s_DuracaoSimulacao_240s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.545860
+>> Epoch 2 finished 	RBM Reconstruction error 0.488771
+>> Epoch 3 finished 	RBM Reconstruction error 0.451535
+>> Epoch 4 finished 	RBM Reconstruction error 0.435289
+>> Epoch 5 finished 	RBM Reconstruction error 0.429926
+>> Epoch 1 finished 	RBM Reconstruction error 0.543847
+>> Epoch 2 finished 	RBM Reconstruction error 0.330097
+>> Epoch 3 finished 	RBM Reconstruction error 0.107072
+>> Epoch 4 finished 	RBM Reconstruction error 0.043934
+>> Epoch 5 finished 	RBM Reconstruction error 0.028639
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 233.042186
+>> Epoch 2 finished 	ANN training loss 22.093318
+>> Epoch 3 finished 	ANN training loss 9.578417
+>> Epoch 4 finished 	ANN training loss 7.946961
+>> Epoch 5 finished 	ANN training loss 7.314471
+[END] Fine tuning step
+
+Done.
+R-squared: 0.986190
+MSE: 9.169818
+
+***************************************************
+
+Modelo 25 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.553801
+>> Epoch 2 finished 	RBM Reconstruction error 0.549258
+>> Epoch 3 finished 	RBM Reconstruction error 0.561807
+>> Epoch 4 finished 	RBM Reconstruction error 0.571777
+>> Epoch 5 finished 	RBM Reconstruction error 0.578523
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 349.552237
+>> Epoch 2 finished 	ANN training loss 105.900383
+>> Epoch 3 finished 	ANN training loss 56.380477
+>> Epoch 4 finished 	ANN training loss 40.570964
+>> Epoch 5 finished 	ANN training loss 35.219223
+[END] Fine tuning step
+
+Done.
+R-squared: 0.972244
+MSE: 20.708126
+
+***************************************************
+
+Modelo 26 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.531222
+>> Epoch 2 finished 	RBM Reconstruction error 0.552779
+>> Epoch 3 finished 	RBM Reconstruction error 0.562531
+>> Epoch 4 finished 	RBM Reconstruction error 0.568931
+>> Epoch 5 finished 	RBM Reconstruction error 0.575067
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 249.575824
+>> Epoch 2 finished 	ANN training loss 54.540921
+>> Epoch 3 finished 	ANN training loss 24.065776
+>> Epoch 4 finished 	ANN training loss 15.135515
+>> Epoch 5 finished 	ANN training loss 11.722563
+[END] Fine tuning step
+
+Done.
+R-squared: 0.987759
+MSE: 9.132569
+
+***************************************************
+
+Modelo 27 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.516920
+>> Epoch 2 finished 	RBM Reconstruction error 0.516096
+>> Epoch 3 finished 	RBM Reconstruction error 0.471614
+>> Epoch 4 finished 	RBM Reconstruction error 0.439355
+>> Epoch 5 finished 	RBM Reconstruction error 0.429401
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 148.497165
+>> Epoch 2 finished 	ANN training loss 15.527656
+>> Epoch 3 finished 	ANN training loss 10.098481
+>> Epoch 4 finished 	ANN training loss 8.895456
+>> Epoch 5 finished 	ANN training loss 8.127597
+[END] Fine tuning step
+
+Done.
+R-squared: 0.987701
+MSE: 9.175829
+
+***************************************************
+
+Modelo 28 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.529573
+>> Epoch 2 finished 	RBM Reconstruction error 0.534958
+>> Epoch 3 finished 	RBM Reconstruction error 0.554329
+>> Epoch 4 finished 	RBM Reconstruction error 0.566771
+>> Epoch 5 finished 	RBM Reconstruction error 0.575434
+>> Epoch 1 finished 	RBM Reconstruction error 0.151095
+>> Epoch 2 finished 	RBM Reconstruction error 0.105631
+>> Epoch 3 finished 	RBM Reconstruction error 0.072030
+>> Epoch 4 finished 	RBM Reconstruction error 0.050453
+>> Epoch 5 finished 	RBM Reconstruction error 0.035988
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 385.841437
+>> Epoch 2 finished 	ANN training loss 189.073381
+>> Epoch 3 finished 	ANN training loss 138.229383
+>> Epoch 4 finished 	ANN training loss 118.002762
+>> Epoch 5 finished 	ANN training loss 115.520440
+[END] Fine tuning step
+
+Done.
+R-squared: 0.913614
+MSE: 64.452104
+
+***************************************************
+
+Modelo 29 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.529608
+>> Epoch 2 finished 	RBM Reconstruction error 0.543312
+>> Epoch 3 finished 	RBM Reconstruction error 0.562080
+>> Epoch 4 finished 	RBM Reconstruction error 0.572019
+>> Epoch 5 finished 	RBM Reconstruction error 0.576702
+>> Epoch 1 finished 	RBM Reconstruction error 0.426677
+>> Epoch 2 finished 	RBM Reconstruction error 0.404978
+>> Epoch 3 finished 	RBM Reconstruction error 0.341832
+>> Epoch 4 finished 	RBM Reconstruction error 0.241543
+>> Epoch 5 finished 	RBM Reconstruction error 0.138938
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 237.591765
+>> Epoch 2 finished 	ANN training loss 39.467181
+>> Epoch 3 finished 	ANN training loss 20.775922
+>> Epoch 4 finished 	ANN training loss 16.308198
+>> Epoch 5 finished 	ANN training loss 14.849252
+[END] Fine tuning step
+
+Done.
+R-squared: 0.987272
+MSE: 9.496176
+
+***************************************************
+
+Modelo 30 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-35-58_DuracaoSetp_6s_DuracaoSimulacao_300s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.520502
+>> Epoch 2 finished 	RBM Reconstruction error 0.545203
+>> Epoch 3 finished 	RBM Reconstruction error 0.558038
+>> Epoch 4 finished 	RBM Reconstruction error 0.566024
+>> Epoch 5 finished 	RBM Reconstruction error 0.572750
+>> Epoch 1 finished 	RBM Reconstruction error 0.392973
+>> Epoch 2 finished 	RBM Reconstruction error 0.155055
+>> Epoch 3 finished 	RBM Reconstruction error 0.049154
+>> Epoch 4 finished 	RBM Reconstruction error 0.020808
+>> Epoch 5 finished 	RBM Reconstruction error 0.012940
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 195.059285
+>> Epoch 2 finished 	ANN training loss 33.177640
+>> Epoch 3 finished 	ANN training loss 12.853532
+>> Epoch 4 finished 	ANN training loss 10.220328
+>> Epoch 5 finished 	ANN training loss 7.675563
+[END] Fine tuning step
+
+Done.
+R-squared: 0.990124
+MSE: 7.368239
+
+***************************************************
+
+Modelo 31 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.620332
+>> Epoch 2 finished 	RBM Reconstruction error 0.582270
+>> Epoch 3 finished 	RBM Reconstruction error 0.581351
+>> Epoch 4 finished 	RBM Reconstruction error 0.583945
+>> Epoch 5 finished 	RBM Reconstruction error 0.585753
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 327.895269
+>> Epoch 2 finished 	ANN training loss 89.323362
+>> Epoch 3 finished 	ANN training loss 47.576729
+>> Epoch 4 finished 	ANN training loss 36.747781
+>> Epoch 5 finished 	ANN training loss 38.915770
+[END] Fine tuning step
+
+Done.
+R-squared: 0.943969
+MSE: 43.733978
+
+***************************************************
+
+Modelo 32 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.523068
+>> Epoch 2 finished 	RBM Reconstruction error 0.512834
+>> Epoch 3 finished 	RBM Reconstruction error 0.438879
+>> Epoch 4 finished 	RBM Reconstruction error 0.417686
+>> Epoch 5 finished 	RBM Reconstruction error 0.422391
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 185.086393
+>> Epoch 2 finished 	ANN training loss 31.138298
+>> Epoch 3 finished 	ANN training loss 13.165600
+>> Epoch 4 finished 	ANN training loss 9.862785
+>> Epoch 5 finished 	ANN training loss 8.679484
+[END] Fine tuning step
+
+Done.
+R-squared: 0.989238
+MSE: 8.400086
+
+***************************************************
+
+Modelo 33 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.565908
+>> Epoch 2 finished 	RBM Reconstruction error 0.562262
+>> Epoch 3 finished 	RBM Reconstruction error 0.575996
+>> Epoch 4 finished 	RBM Reconstruction error 0.578391
+>> Epoch 5 finished 	RBM Reconstruction error 0.576668
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 187.959470
+>> Epoch 2 finished 	ANN training loss 25.425473
+>> Epoch 3 finished 	ANN training loss 12.787971
+>> Epoch 4 finished 	ANN training loss 10.279449
+>> Epoch 5 finished 	ANN training loss 8.775444
+[END] Fine tuning step
+
+Done.
+R-squared: 0.989486
+MSE: 8.206641
+
+***************************************************
+
+Modelo 34 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.514588
+>> Epoch 2 finished 	RBM Reconstruction error 0.545545
+>> Epoch 3 finished 	RBM Reconstruction error 0.563937
+>> Epoch 4 finished 	RBM Reconstruction error 0.573479
+>> Epoch 5 finished 	RBM Reconstruction error 0.579834
+>> Epoch 1 finished 	RBM Reconstruction error 0.194946
+>> Epoch 2 finished 	RBM Reconstruction error 0.164477
+>> Epoch 3 finished 	RBM Reconstruction error 0.125385
+>> Epoch 4 finished 	RBM Reconstruction error 0.087124
+>> Epoch 5 finished 	RBM Reconstruction error 0.057016
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 385.945305
+>> Epoch 2 finished 	ANN training loss 181.655165
+>> Epoch 3 finished 	ANN training loss 128.720397
+>> Epoch 4 finished 	ANN training loss 131.062367
+>> Epoch 5 finished 	ANN training loss 129.850101
+[END] Fine tuning step
+
+Done.
+R-squared: 0.904997
+MSE: 74.153271
+
+***************************************************
+
+Modelo 35 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.557942
+>> Epoch 2 finished 	RBM Reconstruction error 0.560590
+>> Epoch 3 finished 	RBM Reconstruction error 0.567768
+>> Epoch 4 finished 	RBM Reconstruction error 0.573703
+>> Epoch 5 finished 	RBM Reconstruction error 0.577129
+>> Epoch 1 finished 	RBM Reconstruction error 0.273649
+>> Epoch 2 finished 	RBM Reconstruction error 0.156253
+>> Epoch 3 finished 	RBM Reconstruction error 0.085052
+>> Epoch 4 finished 	RBM Reconstruction error 0.050835
+>> Epoch 5 finished 	RBM Reconstruction error 0.034008
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 273.020783
+>> Epoch 2 finished 	ANN training loss 69.829660
+>> Epoch 3 finished 	ANN training loss 28.371354
+>> Epoch 4 finished 	ANN training loss 17.525404
+>> Epoch 5 finished 	ANN training loss 14.284455
+[END] Fine tuning step
+
+Done.
+R-squared: 0.980613
+MSE: 15.132526
+
+***************************************************
+
+Modelo 36 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-37-47_DuracaoSetp_6s_DuracaoSimulacao_360s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.516709
+>> Epoch 2 finished 	RBM Reconstruction error 0.530704
+>> Epoch 3 finished 	RBM Reconstruction error 0.486143
+>> Epoch 4 finished 	RBM Reconstruction error 0.424131
+>> Epoch 5 finished 	RBM Reconstruction error 0.417231
+>> Epoch 1 finished 	RBM Reconstruction error 0.128624
+>> Epoch 2 finished 	RBM Reconstruction error 0.025367
+>> Epoch 3 finished 	RBM Reconstruction error 0.019617
+>> Epoch 4 finished 	RBM Reconstruction error 0.019616
+>> Epoch 5 finished 	RBM Reconstruction error 0.020025
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 155.844559
+>> Epoch 2 finished 	ANN training loss 17.678033
+>> Epoch 3 finished 	ANN training loss 13.423041
+>> Epoch 4 finished 	ANN training loss 11.375547
+>> Epoch 5 finished 	ANN training loss 10.001082
+[END] Fine tuning step
+
+Done.
+R-squared: 0.989076
+MSE: 8.526225
+
+***************************************************
+
+Modelo 37 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.658684
+>> Epoch 2 finished 	RBM Reconstruction error 0.615616
+>> Epoch 3 finished 	RBM Reconstruction error 0.611414
+>> Epoch 4 finished 	RBM Reconstruction error 0.613729
+>> Epoch 5 finished 	RBM Reconstruction error 0.616288
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 308.529360
+>> Epoch 2 finished 	ANN training loss 75.344600
+>> Epoch 3 finished 	ANN training loss 42.470261
+>> Epoch 4 finished 	ANN training loss 37.469196
+>> Epoch 5 finished 	ANN training loss 42.350399
+[END] Fine tuning step
+
+Done.
+R-squared: 0.976780
+MSE: 17.335500
+
+***************************************************
+
+Modelo 38 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.550261
+>> Epoch 2 finished 	RBM Reconstruction error 0.572229
+>> Epoch 3 finished 	RBM Reconstruction error 0.587730
+>> Epoch 4 finished 	RBM Reconstruction error 0.598096
+>> Epoch 5 finished 	RBM Reconstruction error 0.604591
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 232.699233
+>> Epoch 2 finished 	ANN training loss 57.113744
+>> Epoch 3 finished 	ANN training loss 24.053894
+>> Epoch 4 finished 	ANN training loss 12.923104
+>> Epoch 5 finished 	ANN training loss 10.351628
+[END] Fine tuning step
+
+Done.
+R-squared: 0.989418
+MSE: 7.899834
+
+***************************************************
+
+Modelo 39 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.568865
+>> Epoch 2 finished 	RBM Reconstruction error 0.425020
+>> Epoch 3 finished 	RBM Reconstruction error 0.387929
+>> Epoch 4 finished 	RBM Reconstruction error 0.389081
+>> Epoch 5 finished 	RBM Reconstruction error 0.392568
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 117.468857
+>> Epoch 2 finished 	ANN training loss 15.695241
+>> Epoch 3 finished 	ANN training loss 10.819275
+>> Epoch 4 finished 	ANN training loss 8.525131
+>> Epoch 5 finished 	ANN training loss 7.473586
+[END] Fine tuning step
+
+Done.
+R-squared: 0.990073
+MSE: 7.411039
+
+***************************************************
+
+Modelo 40 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.574296
+>> Epoch 2 finished 	RBM Reconstruction error 0.585511
+>> Epoch 3 finished 	RBM Reconstruction error 0.597787
+>> Epoch 4 finished 	RBM Reconstruction error 0.604931
+>> Epoch 5 finished 	RBM Reconstruction error 0.610138
+>> Epoch 1 finished 	RBM Reconstruction error 0.181490
+>> Epoch 2 finished 	RBM Reconstruction error 0.132691
+>> Epoch 3 finished 	RBM Reconstruction error 0.084831
+>> Epoch 4 finished 	RBM Reconstruction error 0.052115
+>> Epoch 5 finished 	RBM Reconstruction error 0.032551
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 371.916484
+>> Epoch 2 finished 	ANN training loss 166.275015
+>> Epoch 3 finished 	ANN training loss 130.898073
+>> Epoch 4 finished 	ANN training loss 135.353462
+>> Epoch 5 finished 	ANN training loss 134.994173
+[END] Fine tuning step
+
+Done.
+R-squared: 0.911799
+MSE: 65.848188
+
+***************************************************
+
+Modelo 41 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.513373
+>> Epoch 2 finished 	RBM Reconstruction error 0.454834
+>> Epoch 3 finished 	RBM Reconstruction error 0.434805
+>> Epoch 4 finished 	RBM Reconstruction error 0.433900
+>> Epoch 5 finished 	RBM Reconstruction error 0.436109
+>> Epoch 1 finished 	RBM Reconstruction error 0.310076
+>> Epoch 2 finished 	RBM Reconstruction error 0.067616
+>> Epoch 3 finished 	RBM Reconstruction error 0.015741
+>> Epoch 4 finished 	RBM Reconstruction error 0.010319
+>> Epoch 5 finished 	RBM Reconstruction error 0.009887
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 186.705642
+>> Epoch 2 finished 	ANN training loss 29.778571
+>> Epoch 3 finished 	ANN training loss 18.800571
+>> Epoch 4 finished 	ANN training loss 17.043152
+>> Epoch 5 finished 	ANN training loss 16.993768
+[END] Fine tuning step
+
+Done.
+R-squared: 0.986494
+MSE: 10.083354
+
+***************************************************
+
+Modelo 42 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-39-23_DuracaoSetp_6s_DuracaoSimulacao_420s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.543388
+>> Epoch 2 finished 	RBM Reconstruction error 0.570761
+>> Epoch 3 finished 	RBM Reconstruction error 0.587781
+>> Epoch 4 finished 	RBM Reconstruction error 0.595762
+>> Epoch 5 finished 	RBM Reconstruction error 0.602469
+>> Epoch 1 finished 	RBM Reconstruction error 0.460151
+>> Epoch 2 finished 	RBM Reconstruction error 0.168167
+>> Epoch 3 finished 	RBM Reconstruction error 0.054057
+>> Epoch 4 finished 	RBM Reconstruction error 0.027906
+>> Epoch 5 finished 	RBM Reconstruction error 0.021017
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 165.494061
+>> Epoch 2 finished 	ANN training loss 22.439310
+>> Epoch 3 finished 	ANN training loss 15.035616
+>> Epoch 4 finished 	ANN training loss 11.444824
+>> Epoch 5 finished 	ANN training loss 8.725270
+[END] Fine tuning step
+
+Done.
+R-squared: 0.989441
+MSE: 7.883037
+
+***************************************************
+
+Modelo 43 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.575148
+>> Epoch 2 finished 	RBM Reconstruction error 0.601248
+>> Epoch 3 finished 	RBM Reconstruction error 0.615011
+>> Epoch 4 finished 	RBM Reconstruction error 0.622384
+>> Epoch 5 finished 	RBM Reconstruction error 0.626441
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 319.883770
+>> Epoch 2 finished 	ANN training loss 113.432529
+>> Epoch 3 finished 	ANN training loss 43.899854
+>> Epoch 4 finished 	ANN training loss 36.699203
+>> Epoch 5 finished 	ANN training loss 39.324854
+[END] Fine tuning step
+
+Done.
+R-squared: 0.970761
+MSE: 22.925907
+
+***************************************************
+
+Modelo 44 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.603316
+>> Epoch 2 finished 	RBM Reconstruction error 0.602905
+>> Epoch 3 finished 	RBM Reconstruction error 0.613545
+>> Epoch 4 finished 	RBM Reconstruction error 0.619788
+>> Epoch 5 finished 	RBM Reconstruction error 0.624296
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 216.987986
+>> Epoch 2 finished 	ANN training loss 57.215222
+>> Epoch 3 finished 	ANN training loss 27.877039
+>> Epoch 4 finished 	ANN training loss 13.196317
+>> Epoch 5 finished 	ANN training loss 10.526756
+[END] Fine tuning step
+
+Done.
+R-squared: 0.988956
+MSE: 8.659515
+
+***************************************************
+
+Modelo 45 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.576863
+>> Epoch 2 finished 	RBM Reconstruction error 0.591769
+>> Epoch 3 finished 	RBM Reconstruction error 0.606367
+>> Epoch 4 finished 	RBM Reconstruction error 0.615567
+>> Epoch 5 finished 	RBM Reconstruction error 0.620522
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 186.833933
+>> Epoch 2 finished 	ANN training loss 32.659379
+>> Epoch 3 finished 	ANN training loss 21.237569
+>> Epoch 4 finished 	ANN training loss 18.394475
+>> Epoch 5 finished 	ANN training loss 15.664338
+[END] Fine tuning step
+
+Done.
+R-squared: 0.979043
+MSE: 16.432597
+
+***************************************************
+
+Modelo 46 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.596642
+>> Epoch 2 finished 	RBM Reconstruction error 0.609503
+>> Epoch 3 finished 	RBM Reconstruction error 0.619613
+>> Epoch 4 finished 	RBM Reconstruction error 0.624561
+>> Epoch 5 finished 	RBM Reconstruction error 0.628526
+>> Epoch 1 finished 	RBM Reconstruction error 0.134768
+>> Epoch 2 finished 	RBM Reconstruction error 0.079444
+>> Epoch 3 finished 	RBM Reconstruction error 0.046126
+>> Epoch 4 finished 	RBM Reconstruction error 0.027582
+>> Epoch 5 finished 	RBM Reconstruction error 0.018495
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 335.291207
+>> Epoch 2 finished 	ANN training loss 183.593892
+>> Epoch 3 finished 	ANN training loss 127.182684
+>> Epoch 4 finished 	ANN training loss 131.248502
+>> Epoch 5 finished 	ANN training loss 139.539829
+[END] Fine tuning step
+
+Done.
+R-squared: 0.885749
+MSE: 89.584201
+
+***************************************************
+
+Modelo 47 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.570613
+>> Epoch 2 finished 	RBM Reconstruction error 0.592792
+>> Epoch 3 finished 	RBM Reconstruction error 0.608159
+>> Epoch 4 finished 	RBM Reconstruction error 0.617153
+>> Epoch 5 finished 	RBM Reconstruction error 0.622150
+>> Epoch 1 finished 	RBM Reconstruction error 0.222521
+>> Epoch 2 finished 	RBM Reconstruction error 0.087087
+>> Epoch 3 finished 	RBM Reconstruction error 0.038733
+>> Epoch 4 finished 	RBM Reconstruction error 0.021771
+>> Epoch 5 finished 	RBM Reconstruction error 0.014883
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 259.986443
+>> Epoch 2 finished 	ANN training loss 81.117207
+>> Epoch 3 finished 	ANN training loss 54.638635
+>> Epoch 4 finished 	ANN training loss 20.489296
+>> Epoch 5 finished 	ANN training loss 13.609556
+[END] Fine tuning step
+
+Done.
+R-squared: 0.988707
+MSE: 8.855149
+
+***************************************************
+
+Modelo 48 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-40-41_DuracaoSetp_6s_DuracaoSimulacao_480s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.586441
+>> Epoch 2 finished 	RBM Reconstruction error 0.596018
+>> Epoch 3 finished 	RBM Reconstruction error 0.606706
+>> Epoch 4 finished 	RBM Reconstruction error 0.615182
+>> Epoch 5 finished 	RBM Reconstruction error 0.620852
+>> Epoch 1 finished 	RBM Reconstruction error 0.614450
+>> Epoch 2 finished 	RBM Reconstruction error 0.222478
+>> Epoch 3 finished 	RBM Reconstruction error 0.043755
+>> Epoch 4 finished 	RBM Reconstruction error 0.018838
+>> Epoch 5 finished 	RBM Reconstruction error 0.014025
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 157.790361
+>> Epoch 2 finished 	ANN training loss 27.726437
+>> Epoch 3 finished 	ANN training loss 19.748207
+>> Epoch 4 finished 	ANN training loss 15.983462
+>> Epoch 5 finished 	ANN training loss 13.438050
+[END] Fine tuning step
+
+Done.
+R-squared: 0.984033
+MSE: 12.520017
+
+***************************************************
+
+Modelo 49 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.598564
+>> Epoch 2 finished 	RBM Reconstruction error 0.576198
+>> Epoch 3 finished 	RBM Reconstruction error 0.573984
+>> Epoch 4 finished 	RBM Reconstruction error 0.573158
+>> Epoch 5 finished 	RBM Reconstruction error 0.572164
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 307.862789
+>> Epoch 2 finished 	ANN training loss 89.474269
+>> Epoch 3 finished 	ANN training loss 40.206509
+>> Epoch 4 finished 	ANN training loss 38.826734
+>> Epoch 5 finished 	ANN training loss 44.284662
+[END] Fine tuning step
+
+Done.
+R-squared: 0.969568
+MSE: 23.863449
+
+***************************************************
+
+Modelo 50 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.430767
+>> Epoch 2 finished 	RBM Reconstruction error 0.401645
+>> Epoch 3 finished 	RBM Reconstruction error 0.407815
+>> Epoch 4 finished 	RBM Reconstruction error 0.409057
+>> Epoch 5 finished 	RBM Reconstruction error 0.413026
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 157.719409
+>> Epoch 2 finished 	ANN training loss 41.479195
+>> Epoch 3 finished 	ANN training loss 22.470563
+>> Epoch 4 finished 	ANN training loss 11.397364
+>> Epoch 5 finished 	ANN training loss 9.016940
+[END] Fine tuning step
+
+Done.
+R-squared: 0.990622
+MSE: 7.353979
+
+***************************************************
+
+Modelo 51 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.535595
+>> Epoch 2 finished 	RBM Reconstruction error 0.551745
+>> Epoch 3 finished 	RBM Reconstruction error 0.565606
+>> Epoch 4 finished 	RBM Reconstruction error 0.568613
+>> Epoch 5 finished 	RBM Reconstruction error 0.565252
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 158.552281
+>> Epoch 2 finished 	ANN training loss 25.579474
+>> Epoch 3 finished 	ANN training loss 17.770197
+>> Epoch 4 finished 	ANN training loss 15.600281
+>> Epoch 5 finished 	ANN training loss 14.055252
+[END] Fine tuning step
+
+Done.
+R-squared: 0.983957
+MSE: 12.580438
+
+***************************************************
+
+Modelo 52 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.579088
+>> Epoch 2 finished 	RBM Reconstruction error 0.564886
+>> Epoch 3 finished 	RBM Reconstruction error 0.570618
+>> Epoch 4 finished 	RBM Reconstruction error 0.571450
+>> Epoch 5 finished 	RBM Reconstruction error 0.571298
+>> Epoch 1 finished 	RBM Reconstruction error 0.123758
+>> Epoch 2 finished 	RBM Reconstruction error 0.067825
+>> Epoch 3 finished 	RBM Reconstruction error 0.035664
+>> Epoch 4 finished 	RBM Reconstruction error 0.020617
+>> Epoch 5 finished 	RBM Reconstruction error 0.013091
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 333.091962
+>> Epoch 2 finished 	ANN training loss 162.017331
+>> Epoch 3 finished 	ANN training loss 127.943069
+>> Epoch 4 finished 	ANN training loss 133.782187
+>> Epoch 5 finished 	ANN training loss 133.733532
+[END] Fine tuning step
+
+Done.
+R-squared: 0.911073
+MSE: 69.732737
+
+***************************************************
+
+Modelo 53 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.450317
+>> Epoch 2 finished 	RBM Reconstruction error 0.404370
+>> Epoch 3 finished 	RBM Reconstruction error 0.403323
+>> Epoch 4 finished 	RBM Reconstruction error 0.412508
+>> Epoch 5 finished 	RBM Reconstruction error 0.409018
+>> Epoch 1 finished 	RBM Reconstruction error 0.198637
+>> Epoch 2 finished 	RBM Reconstruction error 0.020621
+>> Epoch 3 finished 	RBM Reconstruction error 0.009956
+>> Epoch 4 finished 	RBM Reconstruction error 0.009304
+>> Epoch 5 finished 	RBM Reconstruction error 0.009453
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 154.780226
+>> Epoch 2 finished 	ANN training loss 24.470713
+>> Epoch 3 finished 	ANN training loss 15.562415
+>> Epoch 4 finished 	ANN training loss 14.115376
+>> Epoch 5 finished 	ANN training loss 13.445921
+[END] Fine tuning step
+
+Done.
+R-squared: 0.986541
+MSE: 10.553658
+
+***************************************************
+
+Modelo 54 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-41-52_DuracaoSetp_6s_DuracaoSimulacao_540s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.470750
+>> Epoch 2 finished 	RBM Reconstruction error 0.407942
+>> Epoch 3 finished 	RBM Reconstruction error 0.405949
+>> Epoch 4 finished 	RBM Reconstruction error 0.407229
+>> Epoch 5 finished 	RBM Reconstruction error 0.411973
+>> Epoch 1 finished 	RBM Reconstruction error 0.228331
+>> Epoch 2 finished 	RBM Reconstruction error 0.021764
+>> Epoch 3 finished 	RBM Reconstruction error 0.014222
+>> Epoch 4 finished 	RBM Reconstruction error 0.013913
+>> Epoch 5 finished 	RBM Reconstruction error 0.014021
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 126.987273
+>> Epoch 2 finished 	ANN training loss 19.181634
+>> Epoch 3 finished 	ANN training loss 12.853419
+>> Epoch 4 finished 	ANN training loss 10.243321
+>> Epoch 5 finished 	ANN training loss 7.957498
+[END] Fine tuning step
+
+Done.
+R-squared: 0.989961
+MSE: 7.871840
+
+***************************************************
+
+Modelo 55 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+Estrutura: [1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.540745
+>> Epoch 2 finished 	RBM Reconstruction error 0.558187
+>> Epoch 3 finished 	RBM Reconstruction error 0.568686
+>> Epoch 4 finished 	RBM Reconstruction error 0.574061
+>> Epoch 5 finished 	RBM Reconstruction error 0.576437
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 289.473205
+>> Epoch 2 finished 	ANN training loss 126.357002
+>> Epoch 3 finished 	ANN training loss 42.366142
+>> Epoch 4 finished 	ANN training loss 35.358245
+>> Epoch 5 finished 	ANN training loss 42.123286
+[END] Fine tuning step
+
+Done.
+R-squared: 0.872441
+MSE: 103.491427
+
+***************************************************
+
+Modelo 56 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+Estrutura: [2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.527014
+>> Epoch 2 finished 	RBM Reconstruction error 0.548324
+>> Epoch 3 finished 	RBM Reconstruction error 0.561369
+>> Epoch 4 finished 	RBM Reconstruction error 0.567920
+>> Epoch 5 finished 	RBM Reconstruction error 0.572118
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 188.759103
+>> Epoch 2 finished 	ANN training loss 69.588827
+>> Epoch 3 finished 	ANN training loss 48.239447
+>> Epoch 4 finished 	ANN training loss 18.346733
+>> Epoch 5 finished 	ANN training loss 10.742845
+[END] Fine tuning step
+
+Done.
+R-squared: 0.989733
+MSE: 8.329780
+
+***************************************************
+
+Modelo 57 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+Estrutura: [3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.512720
+>> Epoch 2 finished 	RBM Reconstruction error 0.433608
+>> Epoch 3 finished 	RBM Reconstruction error 0.399452
+>> Epoch 4 finished 	RBM Reconstruction error 0.404864
+>> Epoch 5 finished 	RBM Reconstruction error 0.406691
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 114.945418
+>> Epoch 2 finished 	ANN training loss 21.724036
+>> Epoch 3 finished 	ANN training loss 18.318493
+>> Epoch 4 finished 	ANN training loss 16.374255
+>> Epoch 5 finished 	ANN training loss 15.152748
+[END] Fine tuning step
+
+Done.
+R-squared: 0.982925
+MSE: 13.852893
+
+***************************************************
+
+Modelo 58 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+Estrutura: [1, 1]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.539911
+>> Epoch 2 finished 	RBM Reconstruction error 0.558582
+>> Epoch 3 finished 	RBM Reconstruction error 0.568357
+>> Epoch 4 finished 	RBM Reconstruction error 0.574145
+>> Epoch 5 finished 	RBM Reconstruction error 0.576112
+>> Epoch 1 finished 	RBM Reconstruction error 0.230044
+>> Epoch 2 finished 	RBM Reconstruction error 0.229733
+>> Epoch 3 finished 	RBM Reconstruction error 0.228792
+>> Epoch 4 finished 	RBM Reconstruction error 0.225946
+>> Epoch 5 finished 	RBM Reconstruction error 0.216576
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 327.712089
+>> Epoch 2 finished 	ANN training loss 188.273437
+>> Epoch 3 finished 	ANN training loss 124.651959
+>> Epoch 4 finished 	ANN training loss 128.205539
+>> Epoch 5 finished 	ANN training loss 129.071306
+[END] Fine tuning step
+
+Done.
+R-squared: 0.910996
+MSE: 72.210619
+
+***************************************************
+
+Modelo 59 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+Estrutura: [2, 2]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.529009
+>> Epoch 2 finished 	RBM Reconstruction error 0.550895
+>> Epoch 3 finished 	RBM Reconstruction error 0.562503
+>> Epoch 4 finished 	RBM Reconstruction error 0.569281
+>> Epoch 5 finished 	RBM Reconstruction error 0.573335
+>> Epoch 1 finished 	RBM Reconstruction error 0.320692
+>> Epoch 2 finished 	RBM Reconstruction error 0.121048
+>> Epoch 3 finished 	RBM Reconstruction error 0.038851
+>> Epoch 4 finished 	RBM Reconstruction error 0.016663
+>> Epoch 5 finished 	RBM Reconstruction error 0.010008
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 209.133511
+>> Epoch 2 finished 	ANN training loss 86.349929
+>> Epoch 3 finished 	ANN training loss 68.296977
+>> Epoch 4 finished 	ANN training loss 29.922897
+>> Epoch 5 finished 	ANN training loss 16.687876
+[END] Fine tuning step
+
+Done.
+R-squared: 0.981352
+MSE: 15.129224
+
+***************************************************
+
+Modelo 60 de 60
+
+Conjunto de treino: conjuntoDadosRNA_19-09-30_12-43-28_DuracaoSetp_6s_DuracaoSimulacao_600s.csv
+Estrutura: [3, 3]
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 0.449120
+>> Epoch 2 finished 	RBM Reconstruction error 0.397822
+>> Epoch 3 finished 	RBM Reconstruction error 0.402757
+>> Epoch 4 finished 	RBM Reconstruction error 0.405331
+>> Epoch 5 finished 	RBM Reconstruction error 0.407467
+>> Epoch 1 finished 	RBM Reconstruction error 0.170260
+>> Epoch 2 finished 	RBM Reconstruction error 0.030905
+>> Epoch 3 finished 	RBM Reconstruction error 0.015159
+>> Epoch 4 finished 	RBM Reconstruction error 0.013328
+>> Epoch 5 finished 	RBM Reconstruction error 0.013071
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 1 finished 	ANN training loss 129.809385
+>> Epoch 2 finished 	ANN training loss 21.970455
+>> Epoch 3 finished 	ANN training loss 12.327533
+>> Epoch 4 finished 	ANN training loss 9.115392
+>> Epoch 5 finished 	ANN training loss 8.441894
+[END] Fine tuning step
+
+Done.
+R-squared: 0.987705
+MSE: 9.975562
+
+Process finished with exit code 0

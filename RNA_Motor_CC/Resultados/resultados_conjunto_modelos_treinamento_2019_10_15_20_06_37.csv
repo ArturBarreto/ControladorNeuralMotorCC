@@ -1,0 +1,7 @@
+ÍNDICE MODELO,HIDDEN_LAYERS_STRUCTURE,r2Score,MSE,LEARNING_RATE_RBM,LEARNING_RATE,N_EPOCHS_RBM,N_ITER_BACKPROP,BATCH_SIZE,ACTIVATION_FUNCTION,DROPOUT_P,CONJUNTO DE TREINO
+5,"[90, 90, 90]","0,814411147481302","82,3211220350738","0,01","0,01",3,500,16,sigmoid,"0,2",conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+1,"[90, 90, 90]","0,729161640095904","120,13500474226","0,01","0,01",3,50,16,sigmoid,"0,2",conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+2,"[90, 90, 90]","0,723583003765432","122,609504670017","0,01","0,01",3,100,16,sigmoid,"0,2",conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+3,"[90, 90, 90]","0,704405707796959","131,115923564785","0,01","0,01",3,150,16,sigmoid,"0,2",conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+6,"[90, 90, 90]","0,692956192075471","136,194552847523","0,01","0,01",3,1000,16,sigmoid,"0,2",conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
+4,"[90, 90, 90]","0,648946448887371","155,715830071621","0,01","0,01",3,200,16,sigmoid,"0,2",conjuntoDadosRNA_19-09-30_12-09-31_DuracaoSetp_6s_DuracaoSimulacao_120s.csv
